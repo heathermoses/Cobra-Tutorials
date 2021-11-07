@@ -83,13 +83,13 @@
                 </p>
                 <img src="../assets/images/tutorial4/2- ls_empty.png" alt="ls example with no words" class="tutimg">
                 <p>
-                    As you can see, if the “CobraTutorials” directory was empty, we would see nothing printed on the command line.
+                    As you can see, if the “CobraTutorials” directory was empty, we would see another command line prompt, suggesting an empty directory.
                 </p>
             </div>
             <div>
                 <h2>ls -a, ls -l, and ls -la</h2>
                 <p>
-                    The ls command has many options that can change its functionality. An option, also called a flag or switch, is a series of characters that can modify the behavior of a command. With ls, there are two options that can provide additional information about the contents of a directory, these being the -l and -a options.
+                    The ls command has many options that can change its functionality. An option, also called a flag or switch, is a series of characters that can modify the behavior of a command. The ls command has many options however, for the purposes of this tutorial, there are key two options to memorize, these being the -l and -a options.
                 </p>
                 <h3>ls -a</h3>
                 <p>
@@ -109,7 +109,7 @@
                 </p>
                 <h3>ls -la</h3>
                 <p>
-                    What’s interesting about UNIX commands and their available options is that they can be combined together to produce a more specific output. For example, you can combine the -a and -l options into one command: ls -la. The below example shows the ls -la command displaying the contents of the “CobraTutorials” directory whilst also showing all hidden files and all additional file information for its contents.
+                    What’s interesting about UNIX commands and their available options is that they can be combined together to produce a more specific output. For example, you can combine the -a and -l options into one command: ls -la. The below example shows the ls -la command displaying the contents of the “CobraTutorials”, all hidden files, and all additional file information for its contents.
                 </p>
                 <img src="../assets/images/tutorial4/5- ls-la.png" alt="ls -la example" class="tutimg">
             </div>
@@ -124,12 +124,12 @@
             <div>
                 <h2>Moving between directories using cd</h2>
                 <p>
-                    The cd or change directory command is essential in UNIX as it allows you to change your current working directory, or position in the expansive UNIX file tree. Let’s test out the cd command by moving into the directory “testdir4” we made in the previous example. The command below has moved us into the “testdir4” directory.
+                    The cd or change directory command allows you to change your current working directory or position in the expansive UNIX file tree. Let’s test out the cd command by moving into the directory “testdir4” we made in the previous example. The command below has moved us into the “testdir4” directory.
                 </p>
                 <img src="../assets/images/tutorial4/7- cd.png" alt="cd example" class="tutimg">
                 <h3>cd .</h3>
                 <p>
-                    When using the cd command, there are a couple of unique characters that can be used to represent specific directories in UNIX. The . character represents the current directory you are in. The cd . command will keep moving you to your current working directory. The example below shows the cd . command in action and, as expected, will keep the user in the current working directory.
+                    When using the cd command, there are a couple of unique characters that can be used to represent specific directories in UNIX. The . character represents the current directory you are in. The cd . command will move you to your current working directory. The example below shows the cd . command in action and, as expected, will keep the user in the current working directory.
                 </p>
                 <img src="../assets/images/tutorial4/8- cd..png" alt="cd. example" class="tutimg">
                 <h3>cd ..</h3>
@@ -145,14 +145,14 @@
                 <br/>
                 <img src="../assets/images/tutorial4/11- cd~.png" alt="cd ~ example" class="tutimg">
                 <p>
-                    Furthemore, with "/" depicting the root directory, using cd / will, you guessed it, take you back to the root directory.
+                    Furthemore, with "/" depicting the root directory, using cd / will take you back to the root directory.
                 </p>
                 <img src="../assets/images/tutorial4/12- cd_.png" alt="cd / example" class="tutimg">
             </div>
             <div>
                 <h2>Pathways and Pathing</h2>
                 <p>
-                    The pwd or print working directory command will display your current working directory starting from the root “/” of the UNIX hierarchy. Because the pwd command begins with the root directory, we call this path the absolute path. Below is the absolute path for the “CobraTutorials'' directory.
+                    The pwd or print working directory command will display your current working directory starting from the root “/” of the UNIX hierarchy. Because the pwd command begins with the root directory, we call this path the absolute path. Below is the absolute path for the “CobraTutorials" directory. This path translates to the following: from the root, enter the home directory, "~", of a user named "student". From the "student" home directory, enter the “CobraTutorials” directory.
                 </p>
                 <img src="../assets/images/tutorial4/13- pwd.png" alt="pwd example" class="tutimg">
                 <p>
@@ -167,7 +167,7 @@
                     The above example shows how we could move to “testdir4” using a relative path.
                 </p>
                 <p>
-                    If you have not realized, all the commands used throughout this tutorial have been applied with relative pathing in mind. When we utilized the ls, mkdir, and cd commands, we did so knowing what our current working directory’s relative path was. Not once did we use a file or directory’s absolute path. Having said this, for web development, getting comfortable using relative pathing is not a bad idea. While absolute paths and relative paths can both point to the same areas of UNIX, absolute pathing will restrict your web pages from being fully accessible by anyone other than yourself. Refraining from absolute paths will ensure all pathing links will work not only on your localhost PC, but on your web domain as well.
+                    If you have not realized, all the commands used throughout this tutorial have been applied with relative pathing in mind. When we utilized the ls, mkdir, and cd commands, we did so knowing what our current working directory’s relative path was. Not once did we use a file or directory’s absolute path. Having said this, for web development, getting comfortable using relative pathing is not a bad idea. While absolute paths and relative paths can both point to the same areas of the UNIX tree, absolute pathing will restrict your web pages from being fully accessible by anyone other than yourself. Refraining from absolute paths will ensure all pathing links will work not only on your localhost PC, but on your web domain as well.
                 </p>
                 <p>
                     The following are examples showing how to list a directory and make a directory using absolute pathing.
