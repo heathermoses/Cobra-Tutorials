@@ -98,6 +98,8 @@ h1 {
     font-family: "The Bold Font";
     word-spacing: 2px;
     font-size: 3em;
+    margin-bottom: -0.1em;
+    margin-top: 0em;
 }
 
 h2 {
@@ -176,11 +178,16 @@ button:hover {
     margin-right: auto;
 }
 
+.tutimg {
+    width:50%;
+}
+
 /*use this as a flexbox to easily fit both the logo and nav*/
 header {
     margin-left: auto;
     margin-right: auto;
     margin-top: 4em;
+    margin-bottom: 3em;
     display: grid;
     box-sizing: border-box;
     grid-template-columns: 1fr 3fr;
@@ -291,6 +298,44 @@ header {
     display: block;
 }
 
+.hamburger {
+    position: fixed;
+    z-index: 100;
+    top: 1rem;
+    right: 1rem;
+    padding: 4px;
+    border: black solid 1px;
+    background: white;
+    cursor: pointer;
+}
+
+.closeIcon {
+    display: none;
+}
+
+.showMenu {
+    transform: translateY(0);
+}
+
+.mobilemenu button {
+    border-radius: 0;
+}
+
+.menu {
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: black;
+    color: white;
+    list-style: none;
+    padding-top: 4rem;
+}
+
 /*Footer*/
 .footer {
     background-color: black;
@@ -310,6 +355,27 @@ header {
 .footer a:hover {
     color:rgb(192, 192, 192);
 }
+
+iframe {
+    border-width: 0px;
+    vertical-align: center;
+}
+/* Code below by tipswithpunch for responsive youtube video reframing.*/
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+}
+.iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
 /*!
 * Gist DarkCode ver 0.2.0 
 * Copyright (c) 2017 KillerCodes.in
