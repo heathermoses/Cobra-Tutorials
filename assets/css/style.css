@@ -190,7 +190,15 @@ button:hover {
 }
 
 .tutimg {
+    display: block;
     width:50%;
+    border: 3px solid #121113;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    align-content: center;
+    background-image: linear-gradient(80deg, #C59764, #FFD063);
 }
 
 /*use this as a flexbox to easily fit both the logo and nav*/
