@@ -172,6 +172,17 @@ button:hover {
     white-space:pre-line;
 }
 
+#code-inline {
+    font-family: "Source Sans Code Pro";
+    backdrop-filter: brightness(50%);
+    background-color: #1E1E1E;
+    color:#D4D4D4;
+    display:inline;
+    white-space:nowrap;
+    overflow-x: scroll;
+    width: max-content;
+}
+
 #content {
     width:960px;
     margin-left: auto;
