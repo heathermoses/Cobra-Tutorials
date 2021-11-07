@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Chris Bo/Group 3, ISTE-240, 2198-->
+    <head>
+        <meta charset="utf-8"/>
+        <title>Group 3 Style Guide</title>
+        <link rel = "stylesheet" type="text/css" href="./assets/css/style.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+        <header>
+            <!--logo-->
+            <div>
+                <a href="#"> <!--direct to homepage-->
+                    <img src="./assets/images/logovert.png" alt="Cobra Tutorials Logo" class="logo">
+                    <img src="./assets/images/logohorizlq.png" alt="Cobra Tutorials Logo" class="logolq">
+                </a>
+            </div>
+            <img src="./assets/images/hamburger.png" alt="Cobra Tutorials Logo" class="hamburgericon">
+            <!--nav-->
+            <div class="navbar">
+                <div class="dropdown">
+                    <button class="dropbtn">Tutorials
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="./tutorials/index.html">Overview of UNIX</a>
+                        <a href="./tutorials/loading.html">Loading UNIX</a>
+                        <a href="./tutorials/structure.html">UNIX Structure</a>
+                        <a href="./tutorials/traversing.html">Traversing UNIX</a>
+                        <a href="./tutorials/manipulating.html">Manipulating UNIX Files and Directories</a>
+                        <a href="./tutorials/fileperms.html">UNIX and File Permissions</a>
+                        <a href="./tutorials/misc.html">Miscellaneous Commands</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Quizzes
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="./quiz/index.html">Overview of UNIX</a>
+                        <a href="./quiz/loading.html">Loading UNIX</a>
+                        <a href="./quiz/structure.html">UNIX Structure</a>
+                        <a href="./quiz/traversing.html">Traversing UNIX</a>
+                        <a href="./quiz/manipulating.html">Manipulating UNIX Files and Directories</a>
+                        <a href="./quiz/fileperms.html">UNIX and File Permissions</a>
+                        <a href="./quiz/misc.html">Miscellaneous Commands</a>
+                    </div>
+                </div>
+                <a href="./cheatsheet.html">Cheat Sheet</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Videos
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="./quiz/index.html">Overview of UNIX</a>
+                        <a href="./quiz/loading.html">Loading UNIX</a>
+                        <a href="./quiz/structure.html">UNIX Structure</a>
+                        <a href="./quiz/traversing.html">Traversing UNIX</a>
+                        <a href="./quiz/manipulating.html">Manipulating UNIX Files and Directories</a>
+                        <a href="./quiz/fileperms.html">UNIX and File Permissions</a>
+                        <a href="./quiz/misc.html">Miscellaneous Commands</a>
+                    </div>
+            </div>
+            
+        </header>
+        <div id="content">
+            <h1>This is h1 text</h1>
+            <h2>This is h2 text</h2>
+            <h3>This is h3 text</h3>
+            <h4>This is h4 text</h4>
+            <p>This is p, otherwise known as paragraph text. I'm writing a lot
+                so you can see a lot of this on the screen at the same time but
+                I don't want to repeat myself so the text looks weird and
+                overlapping. Make sure you only use h1 text at the top of pages
+                or for really important titles because if we use multiple fonts
+                on the same page it can confuse users and reduce legibility.
+            <p>
+            <p id="code">This is a block of multi-line code.
+                cd /etc/password
+                pwd
+                If you type an enter in the code it transfers to the browser
+                because of the way I styled the css
+            <p>
+            <p>
+                We can also host our code in Github Gists, which are basically
+                Repos but they're only 1 file big and they can embed into websites.
+                This one is my own and it's private/unlisted so only people with the
+                link can see it. Auto formats the colors which is awesome and
+                could save a lot of time, also only takes 1 line of code to implement
+                although if you inspected the page you'd probably see a monster set
+                of divs under it that it created.
+            </p>
+            <!--Github Gists script-->
+            <script src="https://gist.github.com/ChristopherBo/a7419a788e8a5752929bdbe9500fc28b.js"></script>
+            <p>
+            <button id="multipleChoice">Choice 1</button> <button id="multipleChoice">Choice 2</button> <button id="multipleChoice">Choice 3</button> <button id="multipleChoice">Choice 4</button>
+            <br><br>
+            <button id="confirm">Yes!</button> <button id="delete">No!</button>
+            <br><br>
+            <button id="delete">Delete</button>
+        </div>
+        <div class="footer">
+            <p>This site is developed by Cobra Tutorials.</p>
+            <p><a href="./about.html">About Us</a></p>
+            <p><a href="./references.html">Sources</a></p>
+        </div>
+    </body>
+</html>
