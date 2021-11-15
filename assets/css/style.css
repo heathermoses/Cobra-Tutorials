@@ -189,6 +189,10 @@ button:hover {
     margin-right: auto;
 }
 
+#text-bold{
+    font-weight: bold;
+}
+
 .tutimg {
     display: block;
     width:50%;
