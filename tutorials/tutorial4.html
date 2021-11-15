@@ -79,7 +79,7 @@
                 </p>
                 <img src="../assets/images/tutorial4/1- ls.png" alt="ls example" class="tutimg">
                 <p>
-                    Here, we are listing the contents of a directory named “CobraTutorials”. Inside, you can see a number of directories and files, each with unique filenames. This being a UNIX system, upon startup, the current working directory is set to a user's home directory. The home directory is denoted by the tilde or the <span id="text-bold">“~”</span> sign. From the standpoint of the above example, the “CobraTutorials” directory is a subdirectory of the “~” directory, an idea that will become more important as we begin to discuss pathing in UNIX but for now, understand that we are listing the contents of “CobraTutorials”. Since the ls command lists all items in a directory, what would happen if the “CobraTutorials” directory was empty? Let’s test it out!
+                    Here, we are listing the contents of a directory named “CobraTutorials”. Inside, you can see a number of directories and files, each with unique filenames. This being a UNIX system, upon startup, the current working directory is set to a user's home directory. The <span id="text-bold">home directory</span> is denoted by the tilde or the <span id="text-bold">“~”</span> sign. From the standpoint of the above example, the “CobraTutorials” directory is a subdirectory of the “~” directory, an idea that will become more important as we begin to discuss pathing in UNIX but for now, understand that we are listing the contents of “CobraTutorials”. Since the ls command lists all items in a directory, what would happen if the “CobraTutorials” directory was empty? Let’s test it out!
                 </p>
                 <img src="../assets/images/tutorial4/2- ls_empty.png" alt="ls example with no words" class="tutimg">
                 <p>
@@ -89,7 +89,7 @@
             <div>
                 <h2>ls -a, ls -l, and ls -la</h2>
                 <p>
-                    The ls command has many options that can change its functionality. An option, also called a flag or switch, is a series of characters that can modify the behavior of a command. The ls command has many options however, for the purposes of this tutorial, there are key two options to memorize, these being the <span id="text-bold">-l</span> and <span id="text-bold">-a</span> options.
+                    The ls command has many options that can change its functionality. <span id="text-bold">An option</span>, also called a flag or switch, is a series of characters that can modify the behavior of a command. The ls command has many options however, for the purposes of this tutorial, there are key two options to memorize, these being the <span id="text-bold">-l</span> and <span id="text-bold">-a</span> options.
                 </p>
                 <h3>ls -a</h3>
                 <p>
@@ -129,7 +129,7 @@
                 <img src="../assets/images/tutorial4/7- cd.png" alt="cd example" class="tutimg">
                 <h3>cd .</h3>
                 <p>
-                    When using the cd command, there are a couple of unique characters that can be used to represent specific directories in UNIX. The <span id="text-bold">"."</span> character represents the current directory you are in. <span id="text-bold">The cd .</span> command will move you to your current working directory. The example below shows the cd . command in action and, as expected, will keep the user in the current working directory.
+                    When using the cd command, there are a couple of unique characters that can be used to represent specific directories in UNIX. The <span id="text-bold">"."</span> character represents the current directory you are in. <span id="text-bold">The cd .</span> command will move you to your current working directory. The example below shows the cd . command in action and, as expected, it will keep the user in the current working directory.
                 </p>
                 <img src="../assets/images/tutorial4/8- cd..png" alt="cd. example" class="tutimg">
                 <h3>cd ..</h3>
@@ -145,7 +145,7 @@
                 <br/>
                 <img src="../assets/images/tutorial4/11- cd~.png" alt="cd ~ example" class="tutimg">
                 <p>
-                    Furthemore, with <span id="text-bold">"/"</span> depicting the root directory, using <span id="text-bold">cd /</span> will take you back to the root directory.
+                    Furthemore, with <span id="text-bold">"/"</span> depicting the <span id="text-bold">root directory</span>, using <span id="text-bold">cd /</span> will take you back to the root directory.
                 </p>
                 <img src="../assets/images/tutorial4/12- cd_.png" alt="cd / example" class="tutimg">
             </div>
@@ -156,7 +156,7 @@
                 </p>
                 <img src="../assets/images/tutorial4/13- pwd.png" alt="pwd example" class="tutimg">
                 <p>
-                    <span id="text-bold">The absolute path</span> for a file ALWAYS begins with the “/” directory. If this is not the case, we are dealing with a relative path. Instead of beginning with the root directory, <span id="text-bold">relative file paths</span> always begin with your current working directory and never the root. Let’s say that our current working directory is the “CobraTutorials” directory and we want to move into the subdirectory <span id="code-inline">testdir4</span>. We can use the cd command and either the absolute or relative path to accomplish this.
+                    <span id="text-bold">The absolute path</span> for a file ALWAYS begins with the “/” directory. If this is not the case, we are dealing with a relative path. Instead of beginning with the root directory, <span id="text-bold">relative file paths</span> always begin with your current working directory and never the root. Let’s say that our current working directory is the “CobraTutorials” directory and we want to move into the subdirectory "testdir4". We can use the cd command and either the absolute or relative path to accomplish this.
                 </p>
                 <img src="../assets/images/tutorial4/14- cd_absolute.png" alt="cd absolute path example" class="tutimg">
                 <p>
@@ -167,7 +167,7 @@
                     The above example shows how we could move to “testdir4” using a relative path.
                 </p>
                 <p>
-                    If you have not realized, all the commands used throughout this tutorial have been applied with relative pathing in mind. When we utilized the ls, mkdir, and cd commands, we did so knowing what our current working directory’s relative path was. Not once did we use a file or directory’s absolute path. Having said this, for web development, getting comfortable using relative pathing is not a bad idea. While absolute paths and relative paths can both point to the same areas of the UNIX tree, absolute pathing will restrict your web pages from being fully accessible by anyone other than yourself. Refraining from absolute paths will ensure all pathing links will work not only on your localhost PC, but on your web domain as well.
+                    If you have not realized, all the commands used throughout this tutorial have been applied with relative pathing in mind. When we utilized the ls, mkdir, and cd commands, we did so knowing what our current working directory’s relative path was. Not once did we use a file or directory’s absolute path. Having said this, for web development, getting comfortable using relative pathing is not a bad idea. While absolute paths and relative paths can both point to the same areas of the UNIX tree, absolute pathing will restrict your web pages from being fully accessible by anyone other than yourself. Refraining from absolute paths will ensure all pathing links work not only on your localhost PC, but on your web domain as well.
                 </p>
                 <p>
                     The following are examples showing how to list a directory and make a directory using absolute pathing.
