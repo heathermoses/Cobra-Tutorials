@@ -50,7 +50,7 @@
 }
 html, body{
     font-family: "Source Sans Pro", "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: #f3dfb5;
+    /*background-color: #f3dfb5;*/
     color: #000000;
     border: 0;
     font-family: inherit;
@@ -61,6 +61,7 @@ html, body{
     outline: 0;
     padding: 0%;
     vertical-align: baseline;
+    background-image: linear-gradient(90deg, #f3dfb5, #f8c78f);
 }
 
 body {
