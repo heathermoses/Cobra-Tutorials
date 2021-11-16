@@ -185,6 +185,7 @@ button:hover {
 }
 
 #content {
+    font-family: "Source Sans Pro", "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     width:960px;
     margin-left: auto;
     margin-right: auto;
