@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- Chris Bo/Group 3, ISTE-240, 2198-->
+<!-- Akira Kovacsics/Group 3, ISTE-240, 2198-->
     <head>
         <meta charset="utf-8"/>
         <title>Group 3 Style Guide</title>
         <link rel = "stylesheet" type="text/css" href="../assets/css/style.css" />
-        <!-- <script src="../assets/js/js.js"></script> -->
+        <script src="../assets/js/js.js"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	<body>
@@ -83,7 +83,7 @@
             </div>
         </header>
         <div id="content">
-            <form>
+            <form method="get">
                 <ol>
                     <li id="q1">
                         The ls command lists the files in the current directory. What does <span class="code">ls -a</span> do?<br/>
@@ -120,7 +120,7 @@
                         If <span class="code">cd ../../</span> is used, how many levels up will you move?<br/>
                         <div class="question"><input type="radio" name = "q5" value = "f" id="q5a"/><label for="q5a">One</label><br/></div>
                         <div class="question"><input type="radio" name = "q5" value = "t" id="q5b"/><label for="q5b">Two</label><br/></div>
-                        <div class="question"><input type="radio" name = "q5" value = "f" id="q5c"/><label for="q5c">Three</label>><br/></div>
+                        <div class="question"><input type="radio" name = "q5" value = "f" id="q5c"/><label for="q5c">Three</label><br/></div>
                     </li>
 
                     <li id="q6">
@@ -157,7 +157,7 @@
                         <div class="question"><input type="radio" name = "q10" value = "f" id="q10b"/><label for="q10b">Relative</label><br/></div>
                     </li>
                 </ol>
-            <input type="submit" onclick="checkQuiz()">
+                <input type="button" value="Check Quiz" onclick="checkQuiz()">
             </form>
         </div>
         <div class="footer">
@@ -165,25 +165,6 @@
             <p><a href="./about.html">About Us</a></p>
             <p><a href="./references.html">Sources</a></p>
         </div>
-
-        <script>
-            function checkQuiz(){
-                
-                let questions = document.getElementsByClassName('question');
-                
-                let indivQuestions = document.getElementsByTagName('input');
-                
-                for(let i = 0; i < indivQuestions.length; i++){
-                    if(indivQuestions[i].value == 't'){
-                        questions[i].style.backgroundColor = "green";
-
-                    }else if(indivQuestions[i].value == 'f'){
-                        questions[i].style.backgroundColor = "red";
-                    }
-                }
-            }
-
-        </script>
     </body>
 </html>
 

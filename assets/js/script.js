@@ -24,3 +24,21 @@ menuItems.forEach(
   }
 )
 
+function checkQuiz(){
+    let correctCount = 0;
+                
+    let questions = document.getElementsByClassName('question');
+                
+    let indivQuestions = document.getElementsByTagName('input');
+                
+    for(let i = 0; i < indivQuestions.length; i++){
+        if(indivQuestions[i].value == 't' && indivQuestions[i].checked){
+            correctCount++;
+        }
+        if(indivQuestions[i].value == 't'){
+            questions[i].style.backgroundColor = "#55A630";
+        }else if(indivQuestions[i].value == 'f'){
+            questions[i].style.backgroundColor = "#fd332f";
+        }
+    }
+}
