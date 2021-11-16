@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Chris Bo/Group 3, ISTE-240, 2198-->
+    <head>
+        <meta charset="utf-8"/>
+        <title>Group 3 Style Guide</title>
+        <link rel = "stylesheet" type="text/css" href="../assets/css/style.css" />
+        <script src="../assets/js/js.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+        <header>
+            <!--logo-->
+            <div>
+                <a href="#"> <!--direct to homepage-->
+                    <img src="./assets/images/logovert.png" alt="Cobra Tutorials Logo" class="logo">
+                    <img src="./assets/images/logohorizlq.png" alt="Cobra Tutorials Logo" class="logolq">
+                </a>
+            </div>
+            <!--nav-->
+            <div class="navbar">
+                <div class="dropdown">
+                    <button class="dropbtn">Tutorials
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="./tutorials/index.html">Overview of UNIX</a>
+                        <a href="./tutorials/loading.html">Loading UNIX</a>
+                        <a href="./tutorials/structure.html">UNIX Structure</a>
+                        <a href="./tutorials/traversing.html">Traversing UNIX</a>
+                        <a href="./tutorials/manipulating.html">Manipulating UNIX Files and Directories</a>
+                        <a href="./tutorials/fileperms.html">UNIX and File Permissions</a>
+                        <a href="./tutorials/misc.html">Miscellaneous Commands</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Quizzes
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="./quiz/index.html">Overview of UNIX</a>
+                        <a href="./quiz/loading.html">Loading UNIX</a>
+                        <a href="./quiz/structure.html">UNIX Structure</a>
+                        <a href="./quiz/traversing.html">Traversing UNIX</a>
+                        <a href="./quiz/manipulating.html">Manipulating UNIX Files and Directories</a>
+                        <a href="./quiz/fileperms.html">UNIX and File Permissions</a>
+                        <a href="./quiz/misc.html">Miscellaneous Commands</a>
+                    </div>
+                </div>
+                <a href="./cheatsheet.html">Cheat Sheet</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Videos
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="./quiz/index.html">Overview of UNIX</a>
+                        <a href="./quiz/loading.html">Loading UNIX</a>
+                        <a href="./quiz/structure.html">UNIX Structure</a>
+                        <a href="./quiz/traversing.html">Traversing UNIX</a>
+                        <a href="./quiz/manipulating.html">Manipulating UNIX Files and Directories</a>
+                        <a href="./quiz/fileperms.html">UNIX and File Permissions</a>
+                        <a href="./quiz/misc.html">Miscellaneous Commands</a>
+                    </div>
+            </div>
+            <!--hamburger menu nav-->
+            <!--will use later
+            <img src="./assets/images/hamburger.png" alt="Dropdown" class="hamburgericon">
+            -->
+            <!--Placeholder link for icons; will replace with our own soon-->
+            <div class="mobilemenu">
+                <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+                <ul class="menu">
+                    <li><a class="menuItem" href="#">Home</a></li>
+                    <li><a class="menuItem" href="#">Profile</a></li>
+                    <li><a class="menuItem" href="#">About</a></li>
+                    <li><a class="menuItem" href="#">Contacts</a></li>
+                </ul>
+                <button class="hamburger">
+                    <!-- material icons https://material.io/resources/icons/ -->
+                    <i class="menuIcon material-icons">menu</i>
+                    <i class="closeIcon material-icons">close</i>
+                </button>
+            </div>
+        </header>
+        <div id="content">
+            <form name="" action="" method="get">
+                <ol>
+                    <li id="question1">
+                        The ls command lists the files in the current directory. What does <span class="code">ls -a</span> do?<br/>
+                        <input type="radio" name = "q1" value = "f" id="q1a"/><label for="q1a">Shows the files and the date they were created<label><br/>
+                        <input type="radio" name = "q1" value = "t" id="q1b"/><label for="q1b">Shows hidden files<label><br/>
+                        <input type="radio" name = "q1" value = "f" id="q1c"/><label for="q1c">Shows the files and the permissions<label><br/>
+                    </li>
+                    
+                    <li id="question2">
+                        What does <span class="code">ls -l</span> NOT do?<br/>
+                        <input type="radio" name = "q2" value = "f" id="q2a"/><label for="q2a">Show the date the files were created<label><br/>
+                        <input type="radio" name = "q2" value = "f" id="q2b"/><label for="q2b">Show file type<label><br/>
+                        <input type="radio" name = "q2" value = "f" id="q2c"/><label for="q2c">Show file owner<label><br/>
+                        <input type="radio" name = "q2" value = "t" id="q2d"/><label for="q2d">Show hidden files<label><br/>
+                        <input type="radio" name = "q2" value = "f" id="q2e"/><label for="q2e">Show file permissions<label><br/>
+                    </li>
+
+                    <li id="question3">
+                        With the different forms of ls, what do you call the -a/-l/-la?<br/>
+                        <input type="radio" name = "q3" value = "f" id="q3a"/><label for="q3a">Mod<label><br/>
+                        <input type="radio" name = "q3" value = "t" id="q3b"/><label for="q3b">Flag<label><br/>
+                        <input type="radio" name = "q3" value = "t" id="q3c"/><label for="q3c">Switch<label><br/>
+                        <input type="radio" name = "q3" value = "f" id="q3d"/><label for="q3d">Option<label><br/>
+                    </li>
+
+                    <li id="question4">
+                        Where does <span class="code">cd ./</span> take you?<br/>
+                        <input type="radio" name = "q4" value = "t" id="q4a"/><label for="q4a">Current directory<label><br/>
+                        <input type="radio" name = "q4" value = "f" id="q4b"/><label for="q4b">The parent directory<label><br/>
+                        <input type="radio" name = "q4" value = "f" id="q4c"/><label for="q4c">A child directory<label><br/>
+                    </li>
+
+                    <li id="question5">
+                        If <span class="code">cd ../../</span> is used, how many levels up will you move?<br/>
+                        <input type="radio" name = "q5" value = "f" id="q5a"/><label for="q5a">One<label><br/>
+                        <input type="radio" name = "q5" value = "t" id="q5b"/><label for="q5b">Two<label><br/>
+                        <input type="radio" name = "q5" value = "f" id="q5c"/><label for="q5c">Three<label><br/>
+                    </li>
+
+                    <li id="question6">
+                        Where does <span class="code">cd ~</span> take you?<br/>
+                        <input type="radio" name = "q6" value = "f" id="q6a"/><label for="q6a">Root Directory<label><br/>
+                        <input type="radio" name = "q6" value = "f" id="q6b"/><label for="q6b">Parent Directory<label><br/>
+                        <input type="radio" name = "q6" value = "t" id="q6c"/><label for="q6c">Home Directory<label><br/>
+                    </li>
+
+                    <li id="question7">
+                        Where does <span class="code">cd /</span> take you?<br/>
+                        <input type="radio" name = "q7" value = "t" id="q7a"/><label for="q6a">Root Directory<label><br/>
+                        <input type="radio" name = "q7" value = "f" id="q7b"/><label for="q6b">Parent Directory<label><br/>
+                        <input type="radio" name = "q7" value = "f" id="q7c"/><label for="q6c">Home Directory<label><br/>
+                    </li>
+
+                    <li id="question8">
+                        When you want to make a new directory what command should you use?<br/>
+                        <input type="radio" name = "q8" value = "t" id="q8a"/><label for="q8a">mkdir<label><br/>
+                        <input type="radio" name = "q8" value = "f" id="q8b"/><label for="q8b">maked<label><br/>
+                        <input type="radio" name = "q8" value = "f" id="q8c"/><label for="q8c">mkdirtry<label><br/>
+                        <input type="radio" name = "q8" value = "f" id="q8d"/><label for="q8d">makedirectory<label><br/>
+                    </li>
+
+                    <li id="question9">
+                        What is the root directory?<br/>
+                        <input type="radio" name = "q9" value = "f" id="q9a"/><label for="q9a">The path starting at the current directory<label><br/>
+                        <input type="radio" name = "q9" value = "t" id="q9b"/><label for="q9b">The path starting at the very beginning of the UNIX hierarchy<label><br/>
+                    </li>
+                    
+                    <li id="question10">
+                        Does pwd show the absolute path or relative path to a directory?<br/>
+                        <input type="radio" name = "q10" value = "t" id="q10a"/><label for="q10a">Absolute<label><br/>
+                        <input type="radio" name = "q10" value = "f" id="q10b"/><label for="q10b">Relative<label><br/>
+                    </li>
+                </ol>
+            
+            </form>
+        </div>
+        <div class="footer">
+            <p>This site is developed by Cobra Tutorials.</p>
+            <p><a href="./about.html">About Us</a></p>
+            <p><a href="./references.html">Sources</a></p>
+        </div>
+    </body>
+</html>
