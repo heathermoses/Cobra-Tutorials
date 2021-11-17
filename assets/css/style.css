@@ -197,6 +197,9 @@ button:hover {
 }
 
 .tutimg {
+    transition-timing-function: cubic-bezier(0.8, 0.3, 0.4, 0.9);
+    transition-delay: 0s;
+    transition-duration: 0.2s;
     display: block;
     width:50%;
     border: 3px solid #121113;
@@ -209,7 +212,11 @@ button:hover {
 }
 /* To enlarge the image on hover */
 .tutimg:hover {
-    width: 900px;
+    transition-timing-function: cubic-bezier(0.8, 0.3, 0.4, 0.9);
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+    width: 80%;
+    max-width: 900px;
 }
 /*use this as a flexbox to easily fit both the logo and nav*/
 header {
