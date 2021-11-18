@@ -167,10 +167,10 @@ ol li{
     transform: translateY(-4px);
 }
 
-#multipleChoice {
+.multipleChoice {
     background-color: #fdd26e;
 }
-#multipleChoice:hover {
+.multipleChoice:hover {
     background-color: #fae3ad;
 }
 
@@ -218,7 +218,7 @@ ol li{
     margin-right: auto;
 }
 
-#text-bold{
+.text-bold{
     font-weight: bold;
     color: darkgreen;
 }
