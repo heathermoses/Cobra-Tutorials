@@ -67,7 +67,7 @@
             
         </header> <!-- need to insert images and add paragraphs as fig captions maybe-->
         <div id="content">
-            <h1>Section 4: Traversing UNIX</h1>
+            <h1 id="section4">Section 4: Traversing UNIX</h1>
             <div class="iframe-container">
             <iframe width="650" height="360" src="https://www.youtube.com/embed/XjA-Qszel_E" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
@@ -75,7 +75,7 @@
                 Let's finally get into some of the bread and butter of UNIX commands. In this tutorial, we will introduce the basics behind the <span class="text-bold">ls</span>, <span class="text-bold">mkdir</span>, <span class="text-bold">cd</span>, and <span class="text-bold">pwd</span> commands. These commands are key to movement around UNIX structure and will allow you to organize and move your files effectively on a web server! 
             </p>
             <div>
-                <h2>The ls Command</h2>
+                <h2 id="ls">The ls Command</h2>
                 <p>
                     The <span class="text-bold">ls</span> or <span class="text-bold">list</span> command allows you to list the contents of your current working directory. Being able to see exactly what items are present in what areas is the first step in properly organizing your website. Let's take at the following example:
                 </p>
@@ -89,11 +89,11 @@
                 </p>
             </div>
             <div>
-                <h2>ls -a, ls -l, and ls -la</h2>
+                <h2 id="lsFlags">ls -a, ls -l, and ls -la</h2>
                 <p>
                     The ls command has many options that can change its functionality. <span class="text-bold">An option</span>, also called a flag or switch, is a series of characters that can modify the behavior of a command. The ls command has many options however, for the purposes of this tutorial, there are two key options to memorize, these being the <span class="text-bold">-l</span> and <span class="text-bold">-a</span> options.
                 </p>
-                <h3>ls -a</h3>
+                <h3 id="lsa">ls -a</h3>
                 <p>
                     In the UNIX system, many files are hidden. These hidden files often contain vital configuration information for a given directory and it is usually a good idea to refrain from editing any part of these files. Identifying these hidden files is very simple as they are always characterized by a <span class="text-bold">"."</span> in front of their filenames. In order to display these hidden files, the <span class="text-bold">-a</span> or <span class="text-bold">--all</span> option can be added to the ls command. Let’s see an example of the <span class="text-bold">ls -a</span> command in action!
                 </p>
@@ -101,7 +101,7 @@
                 <p>
                     As you can see, the ls -a command produces a similar output to the ls command; however, the ls -a command reveals the hidden files present in the “CobraTutorials” directory, these files being “.”, “..” and “.hidden.txt”.
                 </p>
-                <h3>ls -l </h3>
+                <h3 id="lsl">ls -l </h3>
                 <p>
                     When listing files, the ls command only shows its filename; however, every file and directory has other important information contained within. In order to reveal this information, you can add the <span class="text-bold">-l</span> or <span class="text-bold">--long</span> option to the ls command. Let’s see an example of the <span class="text-bold">ls -l</span> command!
                 </p>
@@ -116,7 +116,7 @@
                 <img src="../assets/images/tutorial4/5-ls-la.png" alt="ls -la example" class="tutimg">
             </div>
             <div>
-                <h2>The mkdir Command</h2>
+                <h2 id="mkdir">The mkdir Command</h2>
                 <p>
                     The <span class="text-bold">mkdir</span>, or <span class="text-bold">make directory command</span>, allows users to make new directories or subdirectories. A directory can be thought of as a folder, holding all your data, whether it be files, other directories, or a combination of the two. Making sure your webpages are properly organized is essential in web development and creating directories is a step in achieving this goal. Let’s make a new directory using this command.
                     In this example, a new subdirectory named “testdir4” is made inside the current “CobraTutorials” directory.
@@ -124,22 +124,22 @@
                 <img src="../assets/images/tutorial4/6-mkdir.png" alt="mkdir example" class="tutimg">
             </div>
             <div>
-                <h2>Moving Between Directories Using cd</h2>
+                <h2 id="cd">Moving Between Directories Using cd</h2>
                 <p>
                     The <span class="text-bold">cd</span> or <span class="text-bold">change directory</span> command allows you to change your current working directory or position in the expansive UNIX file tree. Let’s test out the cd command by moving into the directory “testdir4” we made in the previous example. The command below has moved us into the “testdir4” directory.
                 </p>
                 <img src="../assets/images/tutorial4/7-cd.png" alt="cd example" class="tutimg">
-                <h3>cd .</h3>
+                <h3 id="cdDot">cd .</h3>
                 <p>
                     When using the cd command, there are a couple of unique characters that can be used to represent specific directories in UNIX. The <span class="text-bold">"."</span> character represents the current directory you are in. <span class="text-bold">The cd .</span> command will move you to your current working directory. The example below shows the cd . command in action and, as expected, it will keep the user in the current working directory.
                 </p>
                 <img src="../assets/images/tutorial4/8-cd..png" alt="cd. example" class="tutimg">
-                <h3>cd ..</h3>
+                <h3 id="cdDotDot">cd ..</h3>
                 <p>
                     The <span class="text-bold">".."</span> characters represent the parent directory of your current working directory, this being the directory directly above your current level. Using <span class="text-bold">cd ..</span> will move you up one directory in the overall hierarchy. As you can see by the example below, the current working directory changes from “testdir4” to “CobraTutorials”.
                 </p>
                 <img src="../assets/images/tutorial4/9-cd_..png" alt="cd.. example" class="tutimg">
-                <h3>cd ~ and cd /</h3>
+                <h3 id="cdTilde">cd ~ and cd /</h3>
                 <p>
                     Knowing what . and .. represent, it's important to note using cd by itself, with no subsequent argument, will take you back to the home directory "~". This can also be accomplished using <span class="text-bold">cd ~</span>.
                 </p>
@@ -152,7 +152,7 @@
                 <img src="../assets/images/tutorial4/12-cd_.png" alt="cd / example" class="tutimg">
             </div>
             <div>
-                <h2>Pathways And Pathing</h2>
+                <h2 id="pathways">Pathways And Pathing</h2>
                 <p>
                     The <span class="text-bold">pwd</span> or <span class="text-bold">print working directory</span> command will display your current working directory starting from the root “/” of the UNIX hierarchy. Because the pwd command begins with the root directory, we call this path the absolute path. Below is the absolute path for the “CobraTutorials" directory. This path translates to the following: from the root, enter the home directory, "~", of a user named "student". From the "student" home directory, enter the “CobraTutorials” directory.
                 </p>
