@@ -146,7 +146,7 @@ ol li{
     font-weight: bold;
 }
 
-.question{
+.answer{
     border-radius: 20px;
     padding-left: 1%;
     padding-right: 1%;
@@ -158,13 +158,15 @@ ol li{
     transition: 0.2s ease;
     margin: 0.8%;
     max-width: 50%;
+    background-color: #fae3ad;
 }
 
-.question:hover {
+.answer:hover {
     text-decoration: none;
-    background-color: #F3DE2C;
+    background-color: #fdd26e;
     box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.3);
     transform: translateY(-4px);
+    cursor: pointer;
 }
 
 .multipleChoice {
