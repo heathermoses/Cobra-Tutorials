@@ -268,7 +268,7 @@ header {
 .navbar {
     grid-area: navbar; /*css grid tagging*/
     line-height: normal;
-    width: 40em;
+    /*width: 40em;*/
     margin-left: auto;
     margin-right: auto;
     padding-left:2%;
