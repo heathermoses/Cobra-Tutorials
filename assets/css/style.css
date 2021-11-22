@@ -297,14 +297,14 @@ header {
     color: black;
     padding: 14px 16px;
     text-decoration: none;
-    width:23.7%;
+    /*width: 23.7%; *23.7%*/
 }
   
 /* The dropdown container */
 .dropdown {
     float: left;
     overflow: visible;
-    width:23.7%;
+    /*width: 23.7%;*/
 }
   
 /* Dropdown button */
@@ -313,7 +313,7 @@ header {
     border: none;
     outline: none;
     color: black;
-    padding: 14px 40px;
+    padding: 14px 20px; /*changed from 14px 40px*/
     background-color: inherit;
     font-family: inherit;
     margin: 0;
