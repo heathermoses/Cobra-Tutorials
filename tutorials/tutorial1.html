@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Chris Bo/Group 3, ISTE-240, 2198-->
+    <head>
+        <meta charset="utf-8"/>
+        <title>Overview of UNIX</title>
+        <link rel = "stylesheet" type="text/css" href="../assets/css/style.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+        <header>
+            <!--logo-->
+            <div>
+                <a href="#"> <!--direct to homepage-->
+                    <img src="../assets/images/logovert.png" alt="Cobra Tutorials Logo" class="logo">
+                    <img src="../assets/images/logohorizlq.png" alt="Cobra Tutorials Logo" class="logolq">
+                </a>
+            </div>
+            <img src="../assets/images/hamburger.png" alt="Cobra Tutorials Logo" class="hamburgericon">
+            <!--nav-->
+            <nav class="navbar">
+                <a href="tutorial1.html">Overview of UNIX</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Tutorials
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="tutorial2.html">Loading UNIX</a>
+                        <a href="tutorial3.html">UNIX Structure</a>
+                        <a href="tutorial4.html">Traversing UNIX</a>
+                        <a href="tutorial5.html">Manipulating UNIX Files and Directories</a>
+                        <a href="tutorial6.html">UNIX and File Permissions</a>
+                        <a href="tutorial7.html">Miscellaneous Commands</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Quizzes
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="../quizzes/quiz2.html">Loading UNIX</a>
+                        <a href="../quizzes/quiz3.html">UNIX Structure</a>
+                        <a href="../quizzes/quiz4.html">Traversing UNIX</a>
+                        <a href="../quizzes/quiz5.html">Manipulating UNIX Files and Directories</a>
+                        <a href="../quizzes/quiz6.html">UNIX and File Permissions</a>
+                        <a href="../quizzes/quiz7.html">Miscellaneous Commands</a>
+                    </div>
+                </div>
+                <a href="#">Cheat Sheet</a>
+                <a href="#">Videos</a>
+            </nav>
+        </header> <!-- need to insert images and add paragraphs as fig captions maybe-->
+        <div id="content">
+            <h1 id="section4">Overview of UNIX</h1>
+            <p>
+                One of the most important steps a web developer takes in producing their website is pushing their html, css, and javascript files to a web server. Web servers can organize and structure information in varying ways and, in our case, we will be exploring how a UNIX based web server operates. Here, we will explore the basics of UNIX as we lay a strong foundation for our various UNIX Tutorials to come.
+            </p>
+            <div>
+                <h2 id="WhatIsUnix">What is UNIX?</h2>
+                <p>
+                    UNIX is a computer operating system (OS). The term operating system refers to some form of system software that literally gives a computer its functionality. In our case, this system software refers to the functionality provided to a web server. Operating systems like UNIX combine a suite of programs with slick, graphical user interfaces, or GUIs, that provide users with an easily accessible learning environment as they discover all the cool things their computers can do.    
+                </p>
+                <img src="../assets/images/tutorial1/1-penguin.png" alt="UNIX Penguin" class="tutimg">
+            </div>
+            <div>
+                <h2 id="UNIXMakeup">UNIX Makeup and Specifics</h2>
+                <p>
+                    To further understand the specifics of the UNIX environment, we can divide it into three distinct categories: the kernel, the shell, and the programs. The diagram below can be used to visualize how these three parts utilize each other to make up the UNIX environment. 
+                </p>
+                <img src="../assets/images/tutorial1/2-UNIX.png" alt="Breakdown of the UNIX environment: Kernel, Shell, and Programs" class="tutimg">
+                <h3 id="kernel">The Kernel</h3>
+                <p>
+                    The Kernel is at the core of the UNIX OS. The kernel provides many of the key components vital to the operating system, accomplishing this by interacting with a computer, and or server’s, hardware. The main kernel tasks include but are not limited to: process, device, network, and memory management. In essence, the kernel coordinates how to divide system resources amongst all of a user’s processes. 
+                </p>
+
+                <h3 id="shell">The Shell</h3>
+                <p>
+                    The shell acts as a command line interface (CLI) between the kernel and user. It directly interprets user requests in a way that the kernel can then understand, thus initiating the call and startup of your chosen program. The shell is where users typically spend most of their time whilst using UNIX and is where the most user freedom is granted. Below is an example of a UNIX shell and is where all our commands will be interpreted
+                </p>
+                <img src="../assets/images/tutorial1/3-shell.png" alt="Empty UNIX Shell" class="tutimg">
+                <h3 id="programs">The Programs</h3>
+                <p>
+                   While the shell does allow a tremendous amount of creative freedom, none of this can be granted without the proper use of commands and utilities. UNIX employs a multitude of case sensitive commands that allow a user to accomplish a variety of tasks. The programs in this case are the UNIX commands, written and executed from the shell designed to perform some task. We will spend the majority of our time looking at the syntax and functionality behind some of these commands in later tutorials
+                </p>
+            </div>
+        </div>
+	
+        <div class="footer">
+            <p>This site is developed by Cobra Tutorials.</p>
+            <p><a href="./about.html">About Us</a></p>
+            <p><a href="./references.html">Sources</a></p>
+        </div>
+    </body>
+</html>
+
+
