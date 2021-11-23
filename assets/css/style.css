@@ -214,6 +214,20 @@ ol li{
     width: max-content;
 }
 
+.callout-box {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    border: 2px solid #121113;
+    background-color: white;
+    box-shadow: 10px 10px #fd625f;
+}
+
+.callout-box .multipleChoice {
+    margin-bottom: 1rem;
+}
+
+
 #content {
     font-family: "Source Sans Pro", "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     width:960px;
