@@ -4,6 +4,26 @@ const hamburger= document.querySelector(".hamburger");
 const closeIcon= document.querySelector(".closeIcon");
 const menuIcon = document.querySelector(".menuIcon");
 
+var quiz2 = {
+  "q1": "../tutorials/tutorial4.html#lsa",
+  "q2": "../tutorials/tutorial4.html#lsl",
+  "q3": "../tutorials/tutorial4.html#lsFlags",
+  "q4": "../tutorials/tutorial4.html#cdDot"
+}
+
+var quiz3 = {
+  "q1": "../tutorials/tutorial4.html#lsa",
+  "q2": "../tutorials/tutorial4.html#lsl",
+  "q3": "../tutorials/tutorial4.html#lsFlags",
+  "q4": "../tutorials/tutorial4.html#cdDot",
+  "q5": "../tutorials/tutorial4.html#cdDotDot",
+  "q6": "../tutorials/tutorial4.html#cdTilde",
+  "q7": "../tutorials/tutorial4.html#cdTilde",
+  "q8": "../tutorials/tutorial4.html#mkdir",
+  "q9": "../tutorials/tutorial4.html#pathways",
+  "q10": "../tutorials/tutorial4.html#pathways"
+}
+
 var quiz4 = {
   "q1": "../tutorials/tutorial4.html#lsa",
   "q2": "../tutorials/tutorial4.html#lsl",
@@ -17,8 +37,44 @@ var quiz4 = {
   "q10": "../tutorials/tutorial4.html#pathways"
 }
 
+var quiz5 = {
+  "q1": "../tutorials/tutorial4.html#lsa",
+  "q2": "../tutorials/tutorial4.html#lsl",
+  "q3": "../tutorials/tutorial4.html#lsFlags",
+  "q4": "../tutorials/tutorial4.html#cdDot",
+  "q5": "../tutorials/tutorial4.html#cdDotDot",
+  "q6": "../tutorials/tutorial4.html#cdTilde"
+}
+
+var quiz6 = {
+  "q1": "../tutorials/tutorial4.html#lsa",
+  "q2": "../tutorials/tutorial4.html#lsl",
+  "q3": "../tutorials/tutorial4.html#lsFlags",
+  "q4": "../tutorials/tutorial4.html#cdDot",
+  "q5": "../tutorials/tutorial4.html#cdDotDot",
+  "q6": "../tutorials/tutorial4.html#cdTilde",
+  "q7": "../tutorials/tutorial4.html#cdTilde",
+  "q8": "../tutorials/tutorial4.html#mkdir",
+  "q9": "../tutorials/tutorial4.html#pathways",
+  "q10": "../tutorials/tutorial4.html#pathways"
+}
+
+var quiz7 = {
+  "q1": "../tutorials/tutorial4.html#lsa",
+  "q2": "../tutorials/tutorial4.html#lsl",
+  "q3": "../tutorials/tutorial4.html#lsFlags",
+  "q4": "../tutorials/tutorial4.html#cdDot",
+  "q5": "../tutorials/tutorial4.html#cdDotDot",
+  "q6": "../tutorials/tutorial4.html#cdTilde",
+  "q7": "../tutorials/tutorial4.html#cdTilde"
+}
+
 var sectionLinks = {
-  "quiz4": quiz4
+  "quiz2": quiz2,
+  "quiz4": quiz4,
+  "quiz5": quiz5,
+  "quiz6": quiz6,
+  "quiz7": quiz7
 }
 
 function toggleMenu() {
@@ -93,39 +149,4 @@ function checkQuiz(){
 
     end.appendChild(document.createTextNode("Congrats on finishing the quiz! You got " + correctCount + " out of " + qCount.length + " questions correct."));
 
-    if(correctCount >= 8){
-      end.appendChild(document.createTextNode("\nExcellent work! You seem to understand this topic well."));
-    } else if(correctCount > 4 && correctCount < 8){
-      end.appendChild(document.createTextNode("\nGood job! You seem to understand the topic fairly well, but brushing up on it is reccommended."));
-    } else if(correctCount <= 4){
-      end.appendChild(document.createTextNode("\nNice try! Try reading up on the topic again."));
-    }
-
-}
-
-
-function showAnswers4(){
-  let indivQuestions = document.getElementsByTagName('input');
-
-  for(let i = 0; i < indivQuestions.length; i++){
-  if(indivQuestions[i].value == 't' && !indivQuestions[i].checked){
-    let currQuestion = document.getElementById(indivQuestions[i].name);
-
-    // Create anchor element.
-    var a = document.createElement('a'); 
-            
-    // Create the text node for anchor element.
-    var link = document.createTextNode("Try reviewing this section!");
-      
-    // Append the text node to anchor element.
-    a.appendChild(link); 
-      
-    // Set the href property.
-    a.href = dict[indivQuestions[i].name]; 
-      
-    // Append the anchor element to the body.
-
-    currQuestion.appendChild(a)
-  }
-}
 }
