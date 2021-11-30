@@ -13,7 +13,7 @@
                 </p>
                 <button class="multipleChoice" onclick="window.location.href='../quizzes/quiz1.php';">Go to Quiz 1: Loading UNIX</button>
             </div>
-            <p>Now that we have a basic understanding of what UNIX is, we need to touch upon how we can access UNIX in the first place! Our main way of connecting to a UNIX system will be through SSH and SFTP. This will be how we upload and manage our newly created php, css, and javascript files. What exactly is SSH and SFTP anyway?</p>
+            <p>Now that we have a basic understanding of what UNIX is, we need to touch upon how we can access UNIX in the first place! Our main way of connecting to a UNIX system will be through SSH and SFTP. This will be how we upload and manage our newly created html, css, and javascript files. What exactly is SSH and SFTP anyway?</p>
             <div>
                 <h2 id="loadingSSH">Loading UNIX Using SSH</h2>
                 <p>SSH stands for Secure Shell. As the name suggests, SSH utilization allows a user to create a secure terminal connection between their computer and typically, a remote server. It is this remote server that will host and display your websites! We will go over how to establish a SSH connection on both Mac and Windows systems.</p>
