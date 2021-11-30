@@ -191,6 +191,24 @@ ol li{
     background-color: #73df42;
 }
 
+.nextButton {
+    float: right;
+    width: 30%;
+}
+
+.backButton {
+    float: left;
+    width: 30%;
+}
+
+.centerButton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    width: 30%;
+}
+
 /*
 .code {
     font-family: "Source Sans Code Pro";
@@ -421,7 +439,7 @@ header {
     background-color: black;
     color:#d0d0d0;
     padding-left:5%;
-    margin-top:2.5%;
+    margin-top:8%;
     padding-top:1%;
     padding-bottom:0.5%;
 }
