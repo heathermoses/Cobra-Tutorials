@@ -21,13 +21,35 @@
                     <td><a href="tutorial1.php#loadingSSH">Click For More Information...</a></td>
                 </tr>
                 <tr>
-                <td>SFTP</td>
-                <td>SFTP stands for Secure File Transfer Protocol and is a service that uses SSH to provide a secure transfer between computers. SFTP clients perform virtually the same tasks as an SSH connection but SFTP clients usually have some graphical interface associated with them.</td>
-                <td><a href="tutorial1.php#loadingSFTP">Click For More Information...</a></td>
-            </tr>
+                    <td>SFTP</td>
+                    <td>SFTP stands for Secure File Transfer Protocol and is a service that uses SSH to provide a secure transfer between computers. SFTP clients perform virtually the same tasks as an SSH connection but SFTP clients usually have some graphical interface associated with them.</td>
+                    <td><a href="tutorial1.php#loadingSFTP">Click For More Information...</a></td>
+                </tr>
             </table>
 
             <h2 id="tablesection2">UNIX Structure</h2>
+            <table>
+                <tr class="text-bold-table">
+                    <td>Concept or Command</td>
+                    <td>Description</td>
+                    <td>Section Link</td>
+                </tr>
+                <tr>
+                    <td>UNIX File System</td>
+                    <td>The UNIX file system revolves around a strict hierarchical structure. With the root at the top, the file structure is almost like a tree, stemming off in millions of directions, each with their own branches and pathways.</td>
+                    <td><a href="tutorial2.php#fileStructure">Click For More Information...</a></td>
+                </tr>
+                <tr>
+                    <td>Process</td>
+                    <td>An instance of a currently executing or running program.</td>
+                    <td><a href="tutorial2.php#processes">Click For More Information...</a></td>
+                </tr>
+                <tr>
+                    <td>File</td>
+                    <td>A collection of data that takes up physical space on a PC.</td>
+                    <td><a href="tutorial2.php#files">Click For More Information...</a></td>
+                </tr>
+            </table>
         
             <h2 id="tablesection3">Traversing UNIX</h2>
             <table>
