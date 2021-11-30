@@ -69,13 +69,13 @@
             <div>
                 <h2 id="macSSH">Mac and SSH</h2>
                 <p>On a Mac system, opening the built-in terminal application is your first step. Here, we will be able to enter the necessary command to establish a SSH connection. Below is what the terminal application should look like:</p>
-                <img src="../assets/images/tutorial2/image5.png" alt="Mac and SSH" class="tutimg">
+                <img src="../assets/images/tutorial1/image5.png" alt="Mac and SSH" class="tutimg">
                 <p>Inside the newly opened terminal, we need to type in the following command with the following syntax: <span class="text-bold">ssh username@server_name</span>. In our case, <span class="text-bold">username</span> is the account name native to the server you are trying to connect to and <span class="text-bold">server_name</span> is either the name of the server you wish to connect to or its ip address. For this example, we will be connecting to the server banjo@rit.edu which is based upon a UNIX file structure. After entering in your user credentials, your terminal should look something like: </p>
-                <img src="../assets/images/tutorial2/image4.png" alt="Mac and SSH" class="tutimg">
+                <img src="../assets/images/tutorial1/image4.png" alt="Mac and SSH" class="tutimg">
                 <p>After pressing the <span class="text-bold">enter</span> key, assuming a server exists and your user credentials are proper, you will be greeted with a message and a password field. Upon entering your user password, congratulations! You have successfully established an SSH connection with banjo@rit.edu! </p>
-                <img src="../assets/images/tutorial2/image6.png" alt="Mac and SSH" class="tutimg">
+                <img src="../assets/images/tutorial1/image6.png" alt="Mac and SSH" class="tutimg">
                 <p>As an ending note, whenever you wish to end your SSH connection, simply enter <span class="text-bold">quit</span> into your terminal. This will successfully kill the SSH connection.</p>
-                <img src="../assets/images/tutorial2/image3.png" alt="Mac and SSH" class="tutimg">
+                <img src="../assets/images/tutorial1/image3.png" alt="Mac and SSH" class="tutimg">
             </div>
             <div>
                 <h2 id="loadingSFTP">Loading UNIX Using SFTP</h2>
@@ -84,11 +84,11 @@
             <div>
                 <h2 id="establishSFTP">Establishing SFTP With FileZilla</h2>
                 <p>As mentioned earlier, <span class="text-bold">FileZilla</span> is an SFTP client, allowing a user to establish a secure connection with a remote server. Here, we will illustrate how to connect to the <span class="text-bold">banjo.rit.edu</span> server using FileZilla. </p>
-                <img src="../assets/images/tutorial2/image7.png" alt="Windows and SFTP" class="tutimg">
+                <img src="../assets/images/tutorial1/image7.png" alt="Windows and SFTP" class="tutimg">
                 <p>Above is the FileZilla user interface. Unlike the terminal application earlier, FileZilla gives the user a pleasant user interface to work with. At the top of the FileZilla application, you may notice the <span class="text-bold">“Host”, “Username”, “Password”, and “Port”</span> fields. In order to establish a connection, we need to fill in the proper information into these fields. The host field is the server you are trying to connect to with the username attached at the front. In our case, this is very similar to what we typed to establish a terminal SSH connection: <span class="text-bold"><username>@banjo.rit.edu</span>. The username field is the username you are trying to connect to the server with. It is the same username from the host field. The password field is the password associated with the username in the username field. Lastly, is the port field. By default, when establishing an SSH connection, the SSH protocol uses TCP port 22. Without getting too much into unnecessary detail, remember that we must establish our SSH connection on port 22. At this point, the fields should look something like this:</p>
-                <img src="../assets/images/tutorial2/image1.png" alt="Windows and SFTP" class="tutimg">
+                <img src="../assets/images/tutorial1/image1.png" alt="Windows and SFTP" class="tutimg">
                 <p>Upon pressing the <span class="text-bold">“Quickconnect”</span> button, you should see the FileZilla application change the right hand portion of its interface to accommodate for the newly established SSH connection.</p>
-                <img src="../assets/images/tutorial2/image2.png" alt="Windows and SFTP" class="tutimg">
+                <img src="../assets/images/tutorial1/image2.png" alt="Windows and SFTP" class="tutimg">
                 <p>If the contents of your FileZilla application has changed, congratulations! You have successfully established an SSH connection through an SFTP application! As an ending note, if you ever need to end your SSH connection, you can always press the server icon with a red “x” in the navigation bar of the FileZilla client.</p>
                 <p>Being able to connect to a remote server via a SSH connection is a massive step to managing the upload and management of your websites. In the next tutorial, we will learn just how important understanding the UNIX file structure is while you are structuring your webpages!</p>
             </div>
