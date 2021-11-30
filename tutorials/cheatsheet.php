@@ -5,17 +5,34 @@
             <!-- Bryce Hofstrom/Group 3, ISTE-240, 2198-->
             <h1 id="section4">Command Line Cheat Sheet</h1>
             <p>
-                Need to find a specific UNIX command? Feel free to use the Command Line Cheat Sheet tables to search for your commands! Each table will be organized via their respective tutorial and will provide you with the basics of each command covered! Let's get to searching!
+                Need to find a specific UNIX concept or command? Feel free to use the below Cheat Sheet tables to search for your commands! Each table will be organized via their respective tutorial and will provide you with the basic concepts and commands found in each tutorial section. Let's get to searching!
             </p>
 
             <h2 id="tablesection1">Loading UNIX</h2>
-            
+            <table>
+                <tr class="text-bold-table">
+                    <td>Concept or Command</td>
+                    <td>Description</td>
+                    <td>Section Link</td>
+                </tr>
+                <tr>
+                    <td>SSH</td>
+                    <td>SSH stands for Secure Shell which is a protocol allowing a user to create a secure terminal connection between their PC and a remote server.</td>
+                    <td><a href="tutorial1.php#loadingSSH">Click For More Information...</a></td>
+                </tr>
+                <tr>
+                <td>SFTP</td>
+                <td>SFTP stands for Secure File Transfer Protocol and is a service that uses SSH to provide a secure transfer between computers. SFTP clients perform virtually the same tasks as an SSH connection but SFTP clients usually have some graphical interface associated with them.</td>
+                <td><a href="tutorial1.php#loadingSFTP">Click For More Information...</a></td>
+            </tr>
+            </table>
+
             <h2 id="tablesection2">UNIX Structure</h2>
         
             <h2 id="tablesection3">Traversing UNIX</h2>
             <table>
                 <tr class="text-bold-table">
-                    <td>Command</td>
+                    <td>Concept or Command</td>
                     <td>Description</td>
                     <td>Section Link</td>
                 </tr>
