@@ -4,7 +4,8 @@
         <meta charset="utf-8"/>
         <title>Manipulating UNIX Files and Directories</title>
         <link rel = "stylesheet" type="text/css" href="<?php echo $page ?>assets/css/style.css" />
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="<?php echo $page ?>/assets/js/script.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	<body>
         <header>
