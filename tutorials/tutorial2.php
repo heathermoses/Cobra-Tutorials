@@ -1,6 +1,6 @@
 <?php
     $page = "../";
-    include $page . "assets/includes/header.html";
+    include $page . "assets/includes/header.php";
 ?>      
             <!-- Ritvik Pandillapally/Group 3, ISTE-240, 2198-->
             <h1 id="section4">Section 2: UNIX Structure</h1>
@@ -11,7 +11,7 @@
                 <p>
                     Feel confident about your knowledge already? Check your understanding and take the quiz for this tutorial!
                 </p>
-                <button class="multipleChoice" onclick="window.location.href='../quizzes/quiz2.html';">Go to Quiz 2: UNIX Structure</button>
+                <button class="multipleChoice" onclick="window.location.href='../quizzes/quiz2.php';">Go to Quiz 2: UNIX Structure</button>
             </div>
             <p>
                 Now that we have a basic understanding of what UNIX is and what we will be using UNIX for, let's dive deeper into its overarching structure. Understanding UNIX’s file structure is paramount in understanding how to properly organize your files and therefore display your webpages!
@@ -29,12 +29,12 @@
                 <p>Understanding everything in the UNIX file tree is initially a file or a process is your first step to realizing how simple yet powerful the UNIX environment can be. In the next chapter, we will begin to cover some basic UNIX commands so buckle up and get ready to master UNIX!</p>
             </div>
             <div>
-                <button class="multipleChoice centerButton" onclick="window.location.href='../quizzes/quiz2.html';">Go to Quiz 2: UNIX Structure</button>
+                <button class="multipleChoice centerButton" onclick="window.location.href='../quizzes/quiz2.php';">Go to Quiz 2: UNIX Structure</button>
             </div>
             <div>
-                <button class="multipleChoice backButton" onclick="window.location.href='tutorial1.html';">Go to Tutorial 1: Loading UNIX</button>
-                <button class="multipleChoice nextButton" onclick="window.location.href='tutorial3.html';">Go to Tutorial 3: Traversing UNIX</button>
+                <button class="multipleChoice backButton" onclick="window.location.href='tutorial1.php';">Go to Tutorial 1: Loading UNIX</button>
+                <button class="multipleChoice nextButton" onclick="window.location.href='tutorial3.php';">Go to Tutorial 3: Traversing UNIX</button>
             </div>
 <?php
-    include $page . "/assets/includes/footer.html";
+    include $page . "/assets/includes/footer.php";
 ?>

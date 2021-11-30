@@ -1,59 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<!-- Bryce Hofstrom/Group 3, ISTE-240, 2198-->
-    <head>
-        <meta charset="utf-8"/>
-        <title>Overview of UNIX</title>
-        <link rel = "stylesheet" type="text/css" href="../assets/css/style.css" />
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-	</head>
-	<body>
-        <header>
-            <!--logo-->
-            <div>
-                <a href="#"> <!--direct to homepage-->
-                    <img src="../assets/images/logovert.png" alt="Cobra Tutorials Logo" class="logo">
-                    <img src="../assets/images/logohorizlq.png" alt="Cobra Tutorials Logo" class="logolq">
-                </a>
-            </div>
-            <img src="../assets/images/hamburger.png" alt="Cobra Tutorials Logo" class="hamburgericon">
-            <!--nav-->
-            <nav class="navbar">
-                <a href="overview.html">Overview of UNIX</a>
-                <div class="dropdown">
-                    <button class="dropbtn">Tutorials
-                        <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content">
-                        <a href="tutorial1.html">Loading UNIX</a>
-                        <a href="tutorial2.html">UNIX Structure</a>
-                        <a href="tutorial3.html">Traversing UNIX</a>
-                        <a href="tutorial4.html">Manipulating UNIX Files and Directories</a>
-                        <a href="tutorial5.html">UNIX and File Permissions</a>
-                        <a href="tutorial6.html">Helpful Commands</a>
-                    </div>
-                </div>
-                <div class="dropdown">
-                    <button class="dropbtn">Quizzes
-                        <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content">
-                        <a href="../quizzes/quiz1.html">Loading UNIX</a>
-                        <a href="../quizzes/quiz2.html">UNIX Structure</a>
-                        <a href="../quizzes/quiz3.html">Traversing UNIX</a>
-                        <a href="../quizzes/quiz4.html">Manipulating UNIX Files and Directories</a>
-                        <a href="../quizzes/quiz5.html">UNIX and File Permissions</a>
-                        <a href="../quizzes/quiz6.html">Helpful Commands</a>
-                    </div>
-                </div>
-                <a href="cheatsheet.html">Cheat Sheet</a>
-                <a href="#">Videos</a>
-            </nav>
-        </header> <!-- need to insert images and add paragraphs as fig captions maybe-->
-        <div id="content">
+<?php
+    $page = "../";
+    include $page . "assets/includes/header.php";
+?>     
+            <!-- Bryce Hofstrom/Group 3, ISTE-240, 2198-->
             <h1 id="section4">Overview Of UNIX</h1>
             <p>
-                One of the most important steps a web developer takes in producing their website is pushing their html, css, and javascript files to a web server. Web servers can organize and structure information in varying ways and, in our case, we will be exploring how a UNIX based web server operates. Here, we will explore the basics of UNIX as we lay a strong foundation for our various UNIX Tutorials to come.
+                One of the most important steps a web developer takes in producing their website is pushing their php, css, and javascript files to a web server. Web servers can organize and structure information in varying ways and, in our case, we will be exploring how a UNIX based web server operates. Here, we will explore the basics of UNIX as we lay a strong foundation for our various UNIX Tutorials to come.
             </p>
             <div>
                 <h2 id="WhatIsUnix">What Is UNIX?</h2>
@@ -84,16 +36,8 @@
                 </p>
             </div>
             <div>
-                <button class="multipleChoice nextButton" onclick="window.location.href='tutorial1.html';">Go to Tutorial 1: Loading UNIX</button>
+                <button class="multipleChoice nextButton" onclick="window.location.href='tutorial1.php';">Go to Tutorial 1: Loading UNIX</button>
             </div>
-        </div>
-	
-        <div class="footer">
-            <p>This site is developed by Cobra Tutorials.</p>
-            <p><a href="./about.html">About Us</a></p>
-            <p><a href="./references.html">Sources</a></p>
-        </div>
-    </body>
-</html>
-
-
+<?php
+    include $page . "assets/includes/footer.php";
+?>

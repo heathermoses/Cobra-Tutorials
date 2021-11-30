@@ -1,75 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<!-- Akira Kovacsics/Group 3, ISTE-240, 2198-->
-    <head>
-        <meta charset="utf-8"/>
-        <title>Quiz 4: Manipulating UNIX Files and Directories</title>
-        <link rel = "stylesheet" type="text/css" href="../assets/css/style.css" />
-        <script src="../assets/js/script.js"></script>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-	</head>
-	<body>
-        <header>
-            <!--logo-->
-            <div>
-                <a href="#"> <!--direct to homepage-->
-                    <img src="../assets/images/logovert.png" alt="Cobra Tutorials Logo" class="logo">
-                    <img src="../assets/images/logohorizlq.png" alt="Cobra Tutorials Logo" class="logolq">
-                </a>
-            </div>
-            <!--nav-->
-            <div class="navbar">
-                <a href="../tutorials/overview.html">Overview of UNIX</a>
-                <div class="dropdown">
-                    <button class="dropbtn">Tutorials
-                        <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content">
-                        <a href="../tutorials/tutorial1.html">Loading UNIX</a>
-                        <a href="../tutorials/tutorial2.html">UNIX Structure</a>
-                        <a href="../tutorials/tutorial3.html">Traversing UNIX</a>
-                        <a href="../tutorials/tutorial4.html">Manipulating UNIX Files and Directories</a>
-                        <a href="../tutorials/tutorial5.html">UNIX and File Permissions</a>
-                        <a href="../tutorials/tutorial6.html">Helpful Commands</a>
-                    </div>
-                </div>
-                <div class="dropdown">
-                    <button class="dropbtn">Quizzes
-                        <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content">
-                        <a href="quiz1.html">Loading UNIX</a>
-                        <a href="quiz2.html">UNIX Structure</a>
-                        <a href="quiz3.html">Traversing UNIX</a>
-                        <a href="quiz4.html">Manipulating UNIX Files and Directories</a>
-                        <a href="quiz5.html">UNIX and File Permissions</a>
-                        <a href="quiz6.html">Helpful Commands</a>
-                    </div>
-                </div>
-                <a href="../tutorials/cheatsheet.html">Cheat Sheet</a>
-                <a href="#">Videos</a>
-            </div>
-            <!--hamburger menu nav-->
-            <!--will use later
-            <img src="./assets/images/hamburger.png" alt="Dropdown" class="hamburgericon">
-            -->
-            <!--Placeholder link for icons; will replace with our own soon-->
-            <!-- <div class="mobilemenu">
-                <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-                <ul class="menu">
-                    <li><a class="menuItem" href="#">Home</a></li>
-                    <li><a class="menuItem" href="#">Profile</a></li>
-                    <li><a class="menuItem" href="#">About</a></li>
-                    <li><a class="menuItem" href="#">Contacts</a></li>
-                </ul>
-                <button class="hamburger">
-                    material icons https://material.io/resources/icons/ -->
-                    <!-- <i class="menuIcon material-icons">menu</i>
-                    <i class="closeIcon material-icons">close</i>
-                </button>
-            </div> -->
-        </header>
-        <div id="content">
+<?php
+    $page = "../";
+    include $page . "assets/includes/header.php";
+?>
+            <!-- Akira Kovacsics/Group 3, ISTE-240, 2198-->
             <h1 id="quiz5">Quiz 4: Manipulating UNIX Files and Directories</h1>
             <form method="get">
                 <ol>
@@ -123,16 +56,9 @@
             </form>
             <br/>
             <div>
-                <button class="multipleChoice backButton" onclick="window.location.href='../quizzes/quiz3.html';">Go to Quiz 3: Traversing UNIX</button>
-                <button class="multipleChoice nextButton" onclick="window.location.href='../quizzes/quiz5.html';">Go to Quiz 5: UNIX and File Permissions</button>
+                <button class="multipleChoice backButton" onclick="window.location.href='../quizzes/quiz3.php';">Go to Quiz 3: Traversing UNIX</button>
+                <button class="multipleChoice nextButton" onclick="window.location.href='../quizzes/quiz5.php';">Go to Quiz 5: UNIX and File Permissions</button>
             </div>
-            
-        </div>
-        <div class="footer">
-            <p>This site is developed by Cobra Tutorials.</p>
-            <p><a href="./about.html">About Us</a></p>
-            <p><a href="./references.html">Sources</a></p>
-        </div>
-    </body>
-</html>
-
+<?php
+    include $page . "assets/includes/footer.php";
+?>

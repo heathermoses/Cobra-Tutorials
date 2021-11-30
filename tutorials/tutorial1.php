@@ -1,6 +1,6 @@
 <?php
     $page = "../";
-    include $page . "assets/includes/header.html";
+    include $page . "assets/includes/header.php";
 ?>      
             <!-- Ritvik Pandillapally/Group 3, ISTE-240, 2198-->
             <h1 id="section4">Section 1: Loading UNIX</h1>
@@ -11,7 +11,7 @@
                 <p>
                     Feel confident about your knowledge already? Check your understanding and take the quiz for this tutorial!
                 </p>
-                <button class="multipleChoice" onclick="window.location.href='../quizzes/quiz1.html';">Go to Quiz 1: Loading UNIX</button>
+                <button class="multipleChoice" onclick="window.location.href='../quizzes/quiz1.php';">Go to Quiz 1: Loading UNIX</button>
             </div>
             <p>Now that we have a basic understanding of what UNIX is, we need to touch upon how we can access UNIX in the first place! Our main way of connecting to a UNIX system will be through SSH and SFTP. This will be how we upload and manage our newly created html, css, and javascript files. What exactly is SSH and SFTP anyway?</p>
             <div>
@@ -60,13 +60,13 @@
                 <p>Being able to connect to a remote server via a SSH connection is a massive step to managing the upload and management of your websites. In the next tutorial, we will learn just how important understanding the UNIX file structure is while you are structuring your webpages!</p>
             </div>
             <div>
-                <button class="multipleChoice centerButton" onclick="window.location.href='../quizzes/quiz1.html';">Go to Quiz 1: Loading UNIX</button>
+                <button class="multipleChoice centerButton" onclick="window.location.href='../quizzes/quiz1.php';">Go to Quiz 1: Loading UNIX</button>
             </div>
             <div>
-                <button class="multipleChoice nextButton" onclick="window.location.href='tutorial2.html';">Go to Tutorial 2: UNIX Structure</button>
+                <button class="multipleChoice nextButton" onclick="window.location.href='tutorial2.php';">Go to Tutorial 2: UNIX Structure</button>
             </div>
 <?php
-    include $page . "/assets/includes/footer.html";
+    include $page . "/assets/includes/footer.php";
 ?>
 
 
