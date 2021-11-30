@@ -301,6 +301,22 @@ header {
     font-family: "The Bold Font";
     font-size: 1em;
 }
+
+/* Cheat Sheet CSS */
+table, th, td {
+    border:1px solid black;
+}
+.text-bold-table{
+    font-size: 1.50em;
+    font-weight: bold;
+    color: darkgreen;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+}
+
   
 /* Links inside the navbar */
 .navbar a {
