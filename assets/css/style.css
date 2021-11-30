@@ -488,7 +488,32 @@ iframe {
     width: 100%;
     height: 100%;
 }
-
+/*Video site css design with CSS Grid*/
+.videobox, .videobox2, .videobox3, .videobox4 {
+    max-width:480px;
+    grid-area: video;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, .3);
+}
+.videobox2 {
+    grid-area: video2;
+}
+.videobox3 {
+    grid-area: video3;
+}
+.videobox4 {
+    grid-area: video4;
+}
+.video-wrapper {
+    width:100%;
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 1em;
+    grid-template-areas: 
+    'video video2'
+    'video3 video4';
+}
 
 /*!
 * Gist DarkCode ver 0.2.0 
