@@ -1,6 +1,6 @@
 <?php
     $page = "../";
-    include $page . "assets/includes/header.html";
+    include $page . "assets/includes/header.php";
 ?>
             <!-- Bryce Hofstrom/Group 3, ISTE-240, 2198-->
             <h1 id="section4">Command Line Cheat Sheet</h1>
@@ -22,57 +22,57 @@
                 <tr>
                     <td>ls</td>
                     <td>Known as the list command, ls will list the contents of the current working directory.</td>
-                    <td><a href="tutorial3.html#ls">Click For More Information...</a></td>
+                    <td><a href="tutorial3.php#ls">Click For More Information...</a></td>
                 </tr>
                 <tr>
                     <td>ls -a</td>
                     <td>The list command with the added -a or --all option. Will list the contents of your current working directory including hidden files.</td>
-                    <td><a href="tutorial3.html#lsa">Click For More Information...</a></td>
+                    <td><a href="tutorial3.php#lsa">Click For More Information...</a></td>
                 </tr>
                 <tr>
                     <td>ls -l</td>
                     <td>The list command with the added -l or --long option. Will list the contents of your current working directory while also displaying additional information about each file including: file permissions, type, owner, owner’s group, size in bytes, last modified date and time, and filename.</td>
-                    <td><a href="tutorial3.html#lsl">Click For More Information...</a></td>
+                    <td><a href="tutorial3.php#lsl">Click For More Information...</a></td>
                 </tr>
                 <tr>
                     <td>ls -la</td>
                     <td>The list command with the added -l and -a optons. Will list the contents of your current working directory while also displaying hidden files and additional file information for each file present.</td>
-                    <td><a href="tutorial3.html#lsla">Click For More Information...</a></td>
+                    <td><a href="tutorial3.php#lsla">Click For More Information...</a></td>
                 </tr>
                 <tr>
                     <td>mkdir</td>
                     <td>The make directory command allows a user to make new directories and or subdirectories.</td>
-                    <td><a href="tutorial3.html#mkdir">Click For More Information...</a></td>
+                    <td><a href="tutorial3.php#mkdir">Click For More Information...</a></td>
                 </tr>
                 <tr>
                     <td>cd</td>
                     <td>The change directory command allows a user to change their current working directory. This is representative of a user position in the UNIX file tree.</td>
-                    <td><a href="tutorial3.html#cd">Click For More Information...</a></td>
+                    <td><a href="tutorial3.php#cd">Click For More Information...</a></td>
                 </tr>
                 <tr>
                     <td>cd .</td>
                     <td>The . in the cd . command is representative of your current working directory. As such, the cd . command will move a user to their current working directory.</td>
-                    <td><a href="tutorial3.html#cdDot">Click For More Information...</a></td>
+                    <td><a href="tutorial3.php#cdDot">Click For More Information...</a></td>
                 </tr>
                 <tr>
                     <td>cd ..</td>
                     <td>The .. in the cd .. command is representative of the parent directory of your current working directory. As such, the cd .. command will move a user to their parent directory or the directory directly above the current working directory.</td>
-                    <td><a href="tutorial3.html#cdDotDot">Click For More Information...</a></td>
+                    <td><a href="tutorial3.php#cdDotDot">Click For More Information...</a></td>
                 </tr>
                 <tr>
                     <td>cd ~</td>
                     <td>The ~ in the cd ~ command is representative of the users home directory. As such, the cd ~ command will move a user to their home directory.</td>
-                    <td><a href="tutorial3.html#cdTilde">Click For More Information...</a></td>
+                    <td><a href="tutorial3.php#cdTilde">Click For More Information...</a></td>
                 </tr>
                 <tr>
                     <td>cd /</td>
                     <td>The / in the cd / command is representative of the users root directory. As such, the cd / command will move a user to the root directory of the UNIX file system.</td>
-                    <td><a href="tutorial3.html#cdSlash">Click For More Information...</a></td>
+                    <td><a href="tutorial3.php#cdSlash">Click For More Information...</a></td>
                 </tr>
                 <tr>
                     <td>pwd</td>
                     <td>The print working directory command displays the location of the current working directory strating from the root of the UNIX file tree.</td>
-                    <td><a href="tutorial3.html#pathways">Click For More Information...</a></td>
+                    <td><a href="tutorial3.php#pathways">Click For More Information...</a></td>
                 </tr>
             </table>
 
@@ -80,5 +80,5 @@
             
             <h2 id="tablesection6">Helpful Commands</h2>
 <?php
-    include $page . "assets/includes/footer.html";
+    include $page . "assets/includes/footer.php";
 ?>

@@ -1,11 +1,11 @@
 <?php
     $page = "../";
-    include $page . "assets/includes/header.html";
+    include $page . "assets/includes/header.php";
 ?>     
             <!-- Bryce Hofstrom/Group 3, ISTE-240, 2198-->
             <h1 id="section4">Overview Of UNIX</h1>
             <p>
-                One of the most important steps a web developer takes in producing their website is pushing their html, css, and javascript files to a web server. Web servers can organize and structure information in varying ways and, in our case, we will be exploring how a UNIX based web server operates. Here, we will explore the basics of UNIX as we lay a strong foundation for our various UNIX Tutorials to come.
+                One of the most important steps a web developer takes in producing their website is pushing their php, css, and javascript files to a web server. Web servers can organize and structure information in varying ways and, in our case, we will be exploring how a UNIX based web server operates. Here, we will explore the basics of UNIX as we lay a strong foundation for our various UNIX Tutorials to come.
             </p>
             <div>
                 <h2 id="WhatIsUnix">What Is UNIX?</h2>
@@ -36,8 +36,8 @@
                 </p>
             </div>
             <div>
-                <button class="multipleChoice nextButton" onclick="window.location.href='tutorial1.html';">Go to Tutorial 1: Loading UNIX</button>
+                <button class="multipleChoice nextButton" onclick="window.location.href='tutorial1.php';">Go to Tutorial 1: Loading UNIX</button>
             </div>
 <?php
-    include $page . "assets/includes/footer.html";
+    include $page . "assets/includes/footer.php";
 ?>

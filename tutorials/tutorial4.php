@@ -1,6 +1,6 @@
 <?php
     $page = "../";
-    include $page . "assets/includes/header.html";
+    include $page . "assets/includes/header.php";
 ?>
             <!-- Heather Moses/Group 3, ISTE-240, 2198-->
             <h1 id="section4">Section 4: Manipulating UNIX Files and Directories</h1>
@@ -11,7 +11,7 @@
                 <p>
                     Feel confident about your knowledge already? Check your understanding and take the quiz for this tutorial!
                 </p>
-                <button class="multipleChoice" onclick="window.location.href='../quizzes/quiz4.html';">Go to Quiz 4: Manipulating UNIX Files and Directories</button>
+                <button class="multipleChoice" onclick="window.location.href='../quizzes/quiz4.php';">Go to Quiz 4: Manipulating UNIX Files and Directories</button>
             </div>
 
             <p>
@@ -206,12 +206,12 @@
             </div>
 
             <div>
-                <button class="multipleChoice centerButton" onclick="window.location.href='../quizzes/quiz4.html';">Go to Quiz 4: Manipulating UNIX Files and Directories</button>
+                <button class="multipleChoice centerButton" onclick="window.location.href='../quizzes/quiz4.php';">Go to Quiz 4: Manipulating UNIX Files and Directories</button>
             </div>
             <div>
-                <button class="multipleChoice backButton" onclick="window.location.href='tutorial3.html';">Go to Tutorial 3: Traversing UNIX</button>
-                <button class="multipleChoice nextButton" onclick="window.location.href='tutorial5.html';">Go to Tutorial 5: UNIX and File Permissions</button>
+                <button class="multipleChoice backButton" onclick="window.location.href='tutorial3.php';">Go to Tutorial 3: Traversing UNIX</button>
+                <button class="multipleChoice nextButton" onclick="window.location.href='tutorial5.php';">Go to Tutorial 5: UNIX and File Permissions</button>
             </div>
 <?php
-    include $page . "/assets/includes/footer.html";
+    include $page . "/assets/includes/footer.php";
 ?>

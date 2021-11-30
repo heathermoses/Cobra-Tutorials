@@ -1,6 +1,6 @@
 <?php
     $page = "../";
-    include $page . "assets/includes/header.html";
+    include $page . "assets/includes/header.php";
 ?>
             <!-- Akira Kovacsics/Group 3, ISTE-240, 2198-->
             <h1 id="quiz2">Quiz 1: Loading UNIX</h1>
@@ -39,10 +39,10 @@
             </form>
             <br/>
             <div>
-                <button class="multipleChoice nextButton" onclick="window.location.href='../quizzes/quiz2.html';">Go to Quiz 2: UNIX Structure</button>
+                <button class="multipleChoice nextButton" onclick="window.location.href='../quizzes/quiz2.php';">Go to Quiz 2: UNIX Structure</button>
             </div>
 <?php
-    include $page . "assets/includes/footer.html";
+    include $page . "assets/includes/footer.php";
 ?>
 
 

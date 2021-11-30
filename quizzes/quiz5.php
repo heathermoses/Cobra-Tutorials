@@ -1,6 +1,6 @@
 <?php
     $page = "../";
-    include $page . "assets/includes/header.html";
+    include $page . "assets/includes/header.php";
 ?>
             <!-- Akira Kovacsics/Group 3, ISTE-240, 2198-->
             <h1 id="quiz6">Quiz 5: UNIX and File Permissions</h1>
@@ -81,11 +81,11 @@
             </form>
             <br/>
             <div>
-                <button class="multipleChoice backButton" onclick="window.location.href='../quizzes/quiz4.html';">Go to Quiz 4: Manipulating UNIX Files and Directories</button>
-                <button class="multipleChoice nextButton" onclick="window.location.href='../quizzes/quiz6.html';">Go to Quiz 6: Helpful Commands</button>
+                <button class="multipleChoice backButton" onclick="window.location.href='../quizzes/quiz4.php';">Go to Quiz 4: Manipulating UNIX Files and Directories</button>
+                <button class="multipleChoice nextButton" onclick="window.location.href='../quizzes/quiz6.php';">Go to Quiz 6: Helpful Commands</button>
             </div>
 <?php
-    include $page . "assets/includes/footer.html";
+    include $page . "assets/includes/footer.php";
 ?>
 
 
