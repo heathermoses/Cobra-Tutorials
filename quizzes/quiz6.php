@@ -2,6 +2,7 @@
     $page = "../";
     include $page . "assets/includes/header.html";
 ?>
+            <!-- Akira Kovacsics/Group 3, ISTE-240, 2198-->
             <h1 id="quiz7">Quiz 6: Helpful Commands</h1>
             <form method="get">
                 <ol>
