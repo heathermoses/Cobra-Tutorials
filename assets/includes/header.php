@@ -24,12 +24,12 @@
                         <i class="fa fa-caret-down"></i>
                     </button>
                     <div class="dropdown-content">
-                        <a href="tutorial1.php">Loading UNIX</a>
-                        <a href="tutorial2.php">UNIX Structure</a>
-                        <a href="tutorial3.php">Traversing UNIX</a>
-                        <a href="tutorial4.php">Manipulating UNIX Files and Directories</a>
-                        <a href="tutorial5.php">UNIX and File Permissions</a>
-                        <a href="tutorial6.php">Helpful Commands</a>
+                        <a href="<?php echo $page ?>tutorials/tutorial1.php">Loading UNIX</a>
+                        <a href="<?php echo $page ?>tutorials/tutorial2.php">UNIX Structure</a>
+                        <a href="<?php echo $page ?>tutorials/tutorial3.php">Traversing UNIX</a>
+                        <a href="<?php echo $page ?>tutorials/tutorial4.php">Manipulating UNIX Files and Directories</a>
+                        <a href="<?php echo $page ?>tutorials/tutorial5.php">UNIX and File Permissions</a>
+                        <a href="<?php echo $page ?>tutorials/tutorial6.php">Helpful Commands</a>
                     </div>
                 </div>
                 <div class="dropdown">
