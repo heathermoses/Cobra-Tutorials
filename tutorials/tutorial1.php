@@ -26,7 +26,7 @@
                 <img src="../assets/images/tutorial1/image4.png" alt="Mac and SSH" class="tutimg">
                 <p>After pressing the <span class="text-bold">enter</span> key, assuming a server exists and your user credentials are proper, you will be greeted with a message and a password field. Upon entering your user password, congratulations! You have successfully established an SSH connection with banjo@rit.edu! </p>
                 <img src="../assets/images/tutorial1/image6.png" alt="Mac and SSH" class="tutimg">
-                <p>As an ending note, whenever you wish to end your SSH connection, simply enter <span class="text-bold">quit</span> into your terminal. This will successfully kill the SSH connection.</p>
+                <p>As an ending note, whenever you wish to end your SSH connection, simply enter <span class="text-bold">exit</span> into your terminal. This will successfully kill the SSH connection.</p>
                 <img src="../assets/images/tutorial1/image3.png" alt="Mac and SSH" class="tutimg">
             </div>
             <div>
