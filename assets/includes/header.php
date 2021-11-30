@@ -18,7 +18,7 @@
             <img src="<?php echo $page ?>assets/images/hamburger.png" alt="Cobra Tutorials Logo" class="hamburgericon">
             <!--nav-->
             <nav class="navbar">
-                <a href="<?php echo $page ?>overview.php">Overview of UNIX</a>
+                <a href="<?php echo $page ?>tutorials/overview.php">Overview of UNIX</a>
                 <div class="dropdown">
                     <button class="dropbtn">Tutorials
                         <i class="fa fa-caret-down"></i>
@@ -45,7 +45,7 @@
                         <a href="<?php echo $page ?>quizzes/quiz6.php">Helpful Commands</a>
                     </div>
                 </div>
-                <a href="<?php echo $page ?>cheatsheet.php">Cheat Sheet</a>
+                <a href="<?php echo $page ?>tutorials/cheatsheet.php">Cheat Sheet</a>
                 <a href="#">Videos</a>
             </nav>
         </header> <!-- need to insert images and add paragraphs as fig captions maybe-->
