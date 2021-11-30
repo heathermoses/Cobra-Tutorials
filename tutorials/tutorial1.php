@@ -20,7 +20,7 @@
             </div>
             <div>
                 <h2 id="macSSH">Mac and SSH</h2>
-                <p>On a Mac system, opening the built-in terminal application is your first step. Here, we will be able to enter the necessary command to establish a SSH connection. Below is what the terminal application should look like:</p>
+                <p>On a Mac system, opening the built-in <span class="text-bold">terminal</span> application is your first step. Here, we will be able to enter the necessary command to establish a SSH connection. Below is what the terminal application should look like:</p>
                 <img src="../assets/images/tutorial1/image5.png" alt="Mac and SSH" class="tutimg">
                 <p>Inside the newly opened terminal, we need to type in the following command with the following syntax: <span class="text-bold">ssh username@server_name</span>. In our case, <span class="text-bold">username</span> is the account name native to the server you are trying to connect to and <span class="text-bold">server_name</span> is either the name of the server you wish to connect to or its ip address. For this example, we will be connecting to the server banjo@rit.edu which is based upon a UNIX file structure. After entering in your user credentials, your terminal should look something like: </p>
                 <img src="../assets/images/tutorial1/image4.png" alt="Mac and SSH" class="tutimg">
@@ -28,6 +28,21 @@
                 <img src="../assets/images/tutorial1/image6.png" alt="Mac and SSH" class="tutimg">
                 <p>As an ending note, whenever you wish to end your SSH connection, simply enter <span class="text-bold">quit</span> into your terminal. This will successfully kill the SSH connection.</p>
                 <img src="../assets/images/tutorial1/image3.png" alt="Mac and SSH" class="tutimg">
+            </div>
+            <div>
+                <h2 id="winSSH">Windows and SSH</h2>
+                <p>On a Windows system, there is a somewhat greater level of freedom when choosing the application to open an SSH connection with. The <span class="text-bold">Command Prompt</span>, <span class="text-bold">PuTTY</span>, and <span class="text-bold">PowerShell</span> applications all allow a user to establish such an SSH connetion. Below is what each application looks like respectively:</p>
+                <img src="../assets/images/tutorial1/image5win.png" alt="Windows and SSH" class="tutimg">
+                <br/>
+                <img src="../assets/images/tutorial1/image5putty.png" alt="Windows and SSH" class="tutimg">
+                <br/>
+                <img src="../assets/images/tutorial1/image5power.png" alt="Windows and SSH" class="tutimg">
+                <p>Each and every option above will allow you to establish an SSH connection; however, for the sake of this instruction, we will be using the <span class="text-bold">Command Prompt</span> windows application. To begin, in a newly opened shell, we need to type in the following command with the following syntax: <span class="text-bold">ssh username@server_name</span>. In our case, <span class="text-bold">username</span> is the account name native to the server you are trying to connect to and <span class="text-bold">server_name</span> is either the name of the server you wish to connect to or its ip address. For this example, we will be connecting to the server banjo@rit.edu which is based upon a UNIX file structure. After entering in your user credentials, your terminal should look something like: </p>
+                <img src="../assets/images/tutorial1/image4win.png" alt="Windows and SSH" class="tutimg">
+                <p>After pressing the <span class="text-bold">enter</span> key, assuming a server exists and your user credentials are proper, you will be greeted with a message and a password field. Upon entering your user password, congratulations! You have successfully established an SSH connection with banjo@rit.edu! </p>
+                <img src="../assets/images/tutorial1/image6win.png" alt="Windows and SSH" class="tutimg">
+                <p>To conclude, whenever you wish to end your SSH connection, simply enter <span class="text-bold">exit</span> into your terminal. This will successfully kill the SSH connection.</p>
+                <img src="../assets/images/tutorial1/image3win.png" alt="Windows and SSH" class="tutimg">
             </div>
             <div>
                 <h2 id="loadingSFTP">Loading UNIX Using SFTP</h2>
