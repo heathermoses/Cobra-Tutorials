@@ -5,9 +5,6 @@
             <!-- Ritvik Pandillapally/Group 3, ISTE-240, 2198-->
             <title>Loading UNIX</title>
             <h1 id="section1">Section 1: Loading UNIX</h1>
-            <p>
-                Video will go here
-            </p>
             <div class="callout-box">
                 <p>
                     Feel confident about your knowledge already? Check your understanding and take the quiz for this tutorial!
