@@ -15,7 +15,7 @@
         <header>
             <!--logo-->
             <div>
-                <a href="#"> <!--direct to homepage-->
+                <a href="<?php echo $page ?>index.php"> <!--direct to homepage-->
                     <img src="<?php echo $page ?>assets/images/logovert.png" alt="Cobra Tutorials Logo" class="logo">
                     <img src="<?php echo $page ?>assets/images/logohorizlq.png" alt="Cobra Tutorials Logo" class="logolq">
                 </a>
