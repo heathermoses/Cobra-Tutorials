@@ -537,6 +537,13 @@ iframe {
     margin:0px;
 }
 
+.aboutus-img{
+    width:70%; 
+    border-radius: 50%; 
+    margin-left: 43px;
+    padding-top: 10px;
+}
+
 .column {
     float: left;
     width: 33.3%;
@@ -630,12 +637,5 @@ iframe {
     .container h2 {
         margin:0em; /*gets rid of awkward space below h2*/
         line-height:1.3;
-    }
-
-    .aboutus-img{
-        width:70%; 
-        border-radius: 50%; 
-        margin-left: 43px;
-        padding-top: 10px;
     }
 }
