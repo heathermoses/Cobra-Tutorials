@@ -455,7 +455,7 @@ table{
     background-color: black;
     color:#d0d0d0;
     padding-left:5%;
-    margin-top:8%;
+    margin-top:9%;
     padding-top:1%;
     padding-bottom:0.5%;
 }
@@ -625,6 +625,19 @@ iframe {
 
     .navbar, .navbar a, .dropdown, .dropbtn, .navbar a:hover, .dropdown:hover, .dropdown-content, .dropdown-content a:hover, .dropdown:hover, .dropdown-content {
         display:none;
+    }
+
+    .nextButton, .backButton, .centerButton {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1rem;
+        width: 40%;
+        float: none;
+    }
+
+    .footer {
+        margin-top: 10%;
     }
 }
 

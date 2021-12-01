@@ -18,7 +18,7 @@
                   <div class="container">
                     <h2>Heather Moses</h2>
                     <p class="aboutus-title">Team Leader</p>
-                    <p>I am a sophomore and am majoring in Software Engineering.</p>
+                    <p>I am a junior and am majoring in Software Engineering.</p>
                     <a href = "mailto: hlm8500@rit.edu"><p>hlm8500@rit.edu</p></a>
                   </div>
                 </div>
