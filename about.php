@@ -25,7 +25,7 @@
 
               <div class="column">
                 <div class="card">
-                  <img class="aboutus-img" src="./assets/images/aboutus/bryce.jpeg" alt="Bryce">
+                  <img class="aboutus-img" src="./assets/images/aboutus/bryce.jpg" alt="Bryce">
                   <div class="container">
                     <h2>Bryce Hofstrom</h2>
                     <p class="aboutus-title">Content Creator/Strategist</p>
