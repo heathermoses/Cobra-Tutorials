@@ -1,9 +1,11 @@
 <!-- referred from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_about_page -->
 <!-- Ritvik Pandillapally/Group 3, ISTE-240, 2198-->
 <?php
-    $page = "../";
-    include $page . "assets/includes/aboutus-header.php";
+    $page = "./";
+    include $page . "assets/includes/header.php";
 ?>     
+            <br/><br/>
+            <div class="about-start">
                 <h1><span class="color-black">About Us Page</span></h1>
                 <br/><h4>Learn More Behind the team at Cobra Tutorials!</h4>
               </div>
@@ -85,5 +87,5 @@
     </div>
   </div>
   <?php
-    include $page . "/assets/includes/footer.php";
+    include $page . "assets/includes/footer.php";
 ?>

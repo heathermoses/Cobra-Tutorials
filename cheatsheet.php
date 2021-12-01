@@ -1,5 +1,5 @@
 <?php
-    $page = "../";
+    $page = "./";
     include $page . "assets/includes/header.php";
 ?>
             <!-- Bryce Hofstrom/Group 3, ISTE-240, 2198-->

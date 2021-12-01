@@ -46,8 +46,8 @@
                         <a href="<?php echo $page ?>quizzes/quiz6.php">Helpful Commands</a>
                     </div>
                 </div>
-                <a href="<?php echo $page ?>tutorials/cheatsheet.php">Cheat Sheet</a>
-                <a href="#">Videos</a>
+                <a href="<?php echo $page ?>cheatsheet.php">Cheat Sheet</a>
+                <a href="<?php echo $page ?>videos.php">Videos</a>
             </nav>
         </header> <!-- need to insert images and add paragraphs as fig captions maybe-->
         <div id="content">
