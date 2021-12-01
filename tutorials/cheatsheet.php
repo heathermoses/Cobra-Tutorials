@@ -145,6 +145,7 @@
                 
                 
             </table>
+            <h2 id="tablesection5">UNIX and File Permissions</h2>
             <h2 id="tablesection6">Helpful Commands</h2>
 <?php
     include $page . "assets/includes/footer.php";
