@@ -38,7 +38,7 @@
                 <img src="../assets/images/tutorial4/1_cropped.png" alt="Starter files and directories" class="tutimg">
 
                 <!-- moving a file -->
-                <h3>
+                <h3 id="moving">
                     Moving A File
                 </h3>
                 <p>

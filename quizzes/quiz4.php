@@ -29,7 +29,7 @@
                     </li>
 
                     <li id="q4" class="question">
-                        What command lets you copy files?<br/>
+                        What command lets you delete files?<br/>
                         <label for="q4a"><div class="answer"><input type="radio" name = "q4" value = "f" id="q4a"/>dl</div></label>
                         <label for="q4b"><div class="answer"><input type="radio" name = "q4" value = "f" id="q4b"/>delete</div></label>
                         <label for="q4c"><div class="answer"><input type="radio" name = "q4" value = "t" id="q4c"/>rm</div></label>

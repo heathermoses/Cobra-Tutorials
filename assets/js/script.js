@@ -5,68 +5,68 @@ const closeIcon= document.querySelector(".closeIcon");
 const menuIcon = document.querySelector(".menuIcon");
 
 var quiz2 = {
-  "q1": "../tutorials/tutorial4.html#lsa",
-  "q2": "../tutorials/tutorial4.html#lsl",
-  "q3": "../tutorials/tutorial4.html#lsFlags",
-  "q4": "../tutorials/tutorial4.html#cdDot"
+  "q1": "../tutorials/tutorial1.php#loadingSSH",
+  "q2": "../tutorials/tutorial1.php#macSSH",
+  "q3": "../tutorials/tutorial1.php#macSSH",
+  "q4": "../tutorials/tutorial1.php#establishSFTP"
 }
 
 var quiz3 = {
-  "q1": "../tutorials/tutorial4.html#lsa",
-  "q2": "../tutorials/tutorial4.html#lsl",
-  "q3": "../tutorials/tutorial4.html#lsFlags",
-  "q4": "../tutorials/tutorial4.html#cdDot",
-  "q5": "../tutorials/tutorial4.html#cdDotDot",
-  "q6": "../tutorials/tutorial4.html#cdTilde",
-  "q7": "../tutorials/tutorial4.html#cdTilde",
-  "q8": "../tutorials/tutorial4.html#mkdir",
-  "q9": "../tutorials/tutorial4.html#pathways",
-  "q10": "../tutorials/tutorial4.html#pathways"
+  "q1": "../tutorials/tutorial3.php#lsa",
+  "q2": "../tutorials/tutorial3.php#lsl",
+  "q3": "../tutorials/tutorial3.php#lsFlags",
+  "q4": "../tutorials/tutorial3.php#cdDot",
+  "q5": "../tutorials/tutorial3.php#cdDotDot",
+  "q6": "../tutorials/tutorial3.php#cdTilde",
+  "q7": "../tutorials/tutorial3.php#cdTilde",
+  "q8": "../tutorials/tutorial3.php#mkdir",
+  "q9": "../tutorials/tutorial3.php#pathways",
+  "q10": "../tutorials/tutorial3.php#pathways"
 }
 
 var quiz4 = {
-  "q1": "../tutorials/tutorial4.html#lsa",
-  "q2": "../tutorials/tutorial4.html#lsl",
-  "q3": "../tutorials/tutorial4.html#lsFlags",
-  "q4": "../tutorials/tutorial4.html#cdDot",
-  "q5": "../tutorials/tutorial4.html#cdDotDot",
-  "q6": "../tutorials/tutorial4.html#cdTilde",
-  "q7": "../tutorials/tutorial4.html#cdTilde",
-  "q8": "../tutorials/tutorial4.html#mkdir",
-  "q9": "../tutorials/tutorial4.html#pathways",
-  "q10": "../tutorials/tutorial4.html#pathways"
+  "q1": "../tutorials/tutorial3.php#lsa",
+  "q2": "../tutorials/tutorial3.php#lsl",
+  "q3": "../tutorials/tutorial3.php#lsFlags",
+  "q4": "../tutorials/tutorial3.php#cdDot",
+  "q5": "../tutorials/tutorial3.php#cdDotDot",
+  "q6": "../tutorials/tutorial3.php#cdTilde",
+  "q7": "../tutorials/tutorial3.php#cdTilde",
+  "q8": "../tutorials/tutorial3.php#mkdir",
+  "q9": "../tutorials/tutorial3.php#pathways",
+  "q10": "../tutorials/tutorial3.php#pathways"
 }
 
 var quiz5 = {
-  "q1": "../tutorials/tutorial4.html#lsa",
-  "q2": "../tutorials/tutorial4.html#lsl",
-  "q3": "../tutorials/tutorial4.html#lsFlags",
-  "q4": "../tutorials/tutorial4.html#cdDot",
-  "q5": "../tutorials/tutorial4.html#cdDotDot",
-  "q6": "../tutorials/tutorial4.html#cdTilde"
+  "q1": "../tutorials/tutorial4.php#move",
+  "q2": "../tutorials/tutorial4.php#moving",
+  "q3": "../tutorials/tutorial4.php#copy",
+  "q4": "../tutorials/tutorial4.php#removeFiles",
+  "q5": "../tutorials/tutorial4.php#removeDir",
+  "q6": "../tutorials/tutorial4.php#removeDir"
 }
 
 var quiz6 = {
-  "q1": "../tutorials/tutorial4.html#lsa",
-  "q2": "../tutorials/tutorial4.html#lsl",
-  "q3": "../tutorials/tutorial4.html#lsFlags",
-  "q4": "../tutorials/tutorial4.html#cdDot",
-  "q5": "../tutorials/tutorial4.html#cdDotDot",
-  "q6": "../tutorials/tutorial4.html#cdTilde",
-  "q7": "../tutorials/tutorial4.html#cdTilde",
-  "q8": "../tutorials/tutorial4.html#mkdir",
-  "q9": "../tutorials/tutorial4.html#pathways",
-  "q10": "../tutorials/tutorial4.html#pathways"
+  "q1": "../tutorials/tutorial4.php#lsa",
+  "q2": "../tutorials/tutorial4.php#lsl",
+  "q3": "../tutorials/tutorial4.php#lsFlags",
+  "q4": "../tutorials/tutorial4.php#cdDot",
+  "q5": "../tutorials/tutorial4.php#cdDotDot",
+  "q6": "../tutorials/tutorial4.php#cdTilde",
+  "q7": "../tutorials/tutorial4.php#cdTilde",
+  "q8": "../tutorials/tutorial4.php#mkdir",
+  "q9": "../tutorials/tutorial4.php#pathways",
+  "q10": "../tutorials/tutorial4.php#pathways"
 }
 
 var quiz7 = {
-  "q1": "../tutorials/tutorial4.html#lsa",
-  "q2": "../tutorials/tutorial4.html#lsl",
-  "q3": "../tutorials/tutorial4.html#lsFlags",
-  "q4": "../tutorials/tutorial4.html#cdDot",
-  "q5": "../tutorials/tutorial4.html#cdDotDot",
-  "q6": "../tutorials/tutorial4.html#cdTilde",
-  "q7": "../tutorials/tutorial4.html#cdTilde"
+  "q1": "../tutorials/tutorial4.php#lsa",
+  "q2": "../tutorials/tutorial4.php#lsl",
+  "q3": "../tutorials/tutorial4.php#lsFlags",
+  "q4": "../tutorials/tutorial4.php#cdDot",
+  "q5": "../tutorials/tutorial4.php#cdDotDot",
+  "q6": "../tutorials/tutorial4.php#cdTilde",
+  "q7": "../tutorials/tutorial4.php#cdTilde"
 }
 
 var sectionLinks = {
