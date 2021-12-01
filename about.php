@@ -8,7 +8,7 @@
             <br/><br/>
             <div class="about-start">
               <h1><span class="color-black">About Us</span></h1>
-              <br/><h4>Learn More Behind the team at Cobra Tutorials!</h4>
+              <h4>Learn more about the people behind Cobra Tutorials!</h4>
             </div>
             <h2 id="section4">Our Team</h2>
             <div class="row">
@@ -19,7 +19,7 @@
                     <h2>Heather Moses</h2>
                     <p class="aboutus-title">Team Leader</p>
                     <p>I am a sophomore and am majoring in Software Engineering.</p>
-                    <p>hlm8500@rit.edu</p>
+                    <a href = "mailto: hlm8500@rit.edu"><p>hlm8500@rit.edu</p></a>
                   </div>
                 </div>
               </div>
@@ -31,7 +31,7 @@
                     <h2>Bryce Hofstrom</h2>
                     <p class="aboutus-title">Content Creator/Strategist</p>
                     <p>I am a sophomore and am majoring in Computing and Information Technologies.</p>
-                    <p>bgh3077@rit.edu</p>
+                    <a href = "mailto: bgh3077@rit.edu"><p>bgh3077@rit.edu</p></a>
                   </div>
                 </div>
               </div>
@@ -43,7 +43,7 @@
                     <h2>Chris Bo</h2>
                     <p class="aboutus-title">Graphic Designer</p>
                     <p>I am a sophomore and am majoring in Computing and Information Technologies.</p>
-                    <p>csb3946@rit.edu</p>
+                    <a href = "mailto: csb3946@rit.edu"><p>csb3946@rit.edu</p></a>
                   </div>
                 </div>
               </div>
@@ -56,7 +56,7 @@
                       <h2>Akira Kovacsics</h2>
                       <p class="aboutus-title">Interaction Designer</p>
                       <p>I am a sophomore and am majoring in Human Centered Computing.</p>
-                      <p>rik8091@rit.edu</p>
+                      <a href = "mailto: rik8091@rit.edu"><p>rik8091@rit.edu</p></a>
                     </div>
                   </div>
                 </div>
@@ -70,7 +70,7 @@
                       <h2>Ritvik Pa</h2>
                       <p class="aboutus-title">Information Architect</p>
                       <p>I am a junior and am majoring in Computing and Information Technologies.</p>
-                      <p>rp4931@rit.edu</p>
+                      <a href = "mailto: rp4931@rit.edu"><p>rp4931@rit.edu</p></a>
                     </div>
                   </div>
                 </div>
@@ -82,7 +82,7 @@
                       <h2>Onye Okenzie</h2>
                       <p class="aboutus-title">Interaction Designer</p>
                       <p>I am a sophomore and am majoring in Computing and Information Technologies.</p>
-                      <p>ojo5312@rit.edu</p>
+                      <a href = "mailto: ojo5312@rit.edu"><p>ojo5312@rit.edu</p></a>
                     </div>
                   </div>
                 </div>

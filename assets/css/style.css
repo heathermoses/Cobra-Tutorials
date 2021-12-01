@@ -515,6 +515,61 @@ iframe {
     'video3 video4';
 }
 
+.aboutus-title {
+    color: rgb(112, 112, 112);
+}
+
+.about-start {
+    padding: 2%;
+    text-align: center;
+    background-color: #dbbd78;
+    color: white;
+    border-radius: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.about-start h4 {
+    margin:0px;
+}
+
+.aboutus-img{
+    width:70%; 
+    border-radius: 50%; 
+    margin-left: 43px;
+    padding-top: 10px;
+}
+
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.container h2 {
+    margin-top:0em; /*gets rid of awkward space around h2*/
+    margin-bottom: 0em;
+}
+
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.color-black{
+    color: #000;
+}
+
 /*!
 * Gist DarkCode ver 0.2.0 
 * Copyright (c) 2017 KillerCodes.in
@@ -566,55 +621,16 @@ iframe {
     .navbar, .navbar a, .dropdown, .dropbtn, .navbar a:hover, .dropdown:hover, .dropdown-content, .dropdown-content a:hover, .dropdown:hover, .dropdown-content {
         display:none;
     }
-
-
-}
-.aboutus-img{
-    width:70%; 
-    border-radius: 50%; 
-    margin-left: 43px;
-    padding-top: 10px;
 }
 
-
-.column {
-    float: left;
-    width: 33.3%;
-    margin-bottom: 16px;
-    padding: 0 8px;
-  }
-  
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: 8px;
-  }
-  
-  
-  .container {
-    padding: 0 16px;
-  }
-  
-  .container::after, .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  @media screen and (max-width: 650px) {
+@media screen and (max-width: 650px) {
     .column {
-      width: 100%;
-      display: block;
+        width: 100%;
+        display: block;
     }
-  }
-  .aboutus-title {
-    color: grey;
-  }
-  .about-start {
-    padding: 50px;
-    text-align: center;
-    background-color: #dbbd78;
-    color: white;
-    border-radius: 20%;
-  }
-  .color-black{
-      color: #000;
-  }
+
+    .container h2 {
+        margin:0em; /*gets rid of awkward space below h2*/
+        line-height:1.3;
+    }
+}
