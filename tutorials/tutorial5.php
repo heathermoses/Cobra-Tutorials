@@ -141,7 +141,7 @@
 					chown has the following syntax: <span class="text-bold">chown <new_user> <filename></span> where <span class="text-bold"><new_user></span> is the file's new owner. 
 					chgrp has a similar syntax with: <span class="text-bold">chgrp <new_group> <filename></span> where <span class="text-bold"><new_group></span> is the file's new owner group. 
 					In order to execute these commands, you may need to elevate your user privileges using the <span class="text-bold">sudo</span> command before the command call. 
-					For example, <span class="text-bold">sudo chown root file.txt</span>. Let’s look at an example
+					For example, <span class="text-bold">sudo chown root file.txt</span>. Let’s look at an example:
 				</p>
 				
 				<img src="../assets/images/tutorial5/4_cropped.png" alt="Changing Owner and Group" class="tutimg">
