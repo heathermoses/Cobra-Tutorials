@@ -23,7 +23,7 @@
 			
 			<div>
 				
-				<h2 id="files">
+				<h2 id="ownership">
 					File Ownership 
 				</h2>
 				
@@ -37,7 +37,7 @@
 					The other group is often denoted using an <span class="text-bold">(o)</span>.
 				</p>
 				
-				<h2>
+				<h2 id="permissions">
 					File Permissions
 				</h2>
 				
@@ -81,7 +81,7 @@
 					As you can see, the above image lists the information for “file.txt”. Each colored box represents a different part of the files overall permissions.
 				</p>
 				
-				<h3>
+				<h3 id="chpermissions">
 					Changing Permissions
 				</h3>
 				
@@ -132,7 +132,7 @@
 					<ol>Adds read, write, and execute permissions to user, group and other ownership groups for file.txt.</ol>
 				</ul>
 				
-				<h3>
+				<h3 id="chowngrp">
 					Changing Owner and Group
 				</h3>
 				
