@@ -116,7 +116,35 @@
             </table>
 
             <h2 id="tablesection4">Manipulating UNIX Files and Directories</h2>
-            
+            <table>
+                <tr class="text-bold-table">
+                    <td>Concept or Command</td>
+                    <td>Description</td>
+                    <td>Section Link</td>
+                </tr>
+                <tr>
+                    <td>mv</td>
+                    <td>The mv or move command allows a user to move files or directories from one location to another in the UNIX file system. Additionally, the move command can be used as a way to rename such files while keeping contents intact.</td>
+                    <td><a href="tutorial4.php#move">Click For More Information...</a></td>
+                </tr>
+                <tr>
+                    <td>cp</td>
+                    <td>The cp of copy command allows a user to take the contents of a file or directory and duplicate it to another file.</td>
+                    <td><a href="tutorial4.php#copy">Click For More Information...</a></td>
+                </tr>
+                <tr>
+                    <td>rm</td>
+                    <td>The remove or rm command allows a user to select files and certain directories and remove them from the UNIX file tree.</td>
+                    <td><a href="tutorial4.php#removeFiles">Click For More Information...</a></td>
+                </tr>
+                <tr>
+                    <td>rmdir</td>
+                    <td>The rmdir or remove directory command allows a user to remove a directory with no subdirectories contained within.</td>
+                    <td><a href="tutorial4.php#removeDir">Click For More Information...</a></td>
+                </tr>
+                
+                
+            </table>
             <h2 id="tablesection6">Helpful Commands</h2>
 <?php
     include $page . "assets/includes/footer.php";
