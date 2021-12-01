@@ -4,8 +4,10 @@
         <meta charset="utf-8"/>
         <link rel = "stylesheet" type="text/css" href="<?php echo $page ?>assets/css/style.css" />
         <?php
-        if()
-		<script src="<?php echo $page ?>/assets/js/script.js"></script>
+            $pagename = $actual_link = "$_SERVER[REQUEST_URI]"; //ex: /~csb3946/240/groupprojexp/quizzes/quiz1.php
+            if(strstr($pagename, 'quiz') != false) { //if quiz exists in $pagename give it js
+                echo '<script src="../assets/js/script.js"></script>';
+            }
         ?>
         <meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
