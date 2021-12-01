@@ -21,7 +21,7 @@
             <!-- moving and renaming files and directories -->
             <div>
                 <!-- moving files and directories -->
-                <h2>
+                <h2 id="move">
                     Moving And Renaming Files And Directories
                 </h2>
                 <p>
@@ -52,7 +52,7 @@
 
                 <!-- moving a directory -->
                 <h3>
-                    Moving a Directory
+                    Moving A Directory
                 </h3>
                 <p>
                     Just like moving a file, moving directories is just as possible. 
@@ -107,8 +107,8 @@
 
             <!-- copying files and directories -->
             <div>
-                <h2>
-                    Copying Files and Directories
+                <h2 id="copy">
+                    Copying Files And Directories
                 </h2>
                 <p>
                     Just like moving files, being able to make copies and duplicate files on a web server may prove particularly useful. 
@@ -172,7 +172,7 @@
                 </p>
 
                 <!-- removing files -->
-                <h3>
+                <h3 id="removeFiles">
                     Removing Files
                 </h3>
                 <p>
@@ -188,7 +188,7 @@
                 </p>
 
                 <!-- removing directories -->
-                <h3>
+                <h3 id="removeDir">
                     Removing Directories
                 </h3>
                 <p>
