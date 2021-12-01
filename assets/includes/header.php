@@ -23,7 +23,7 @@
             <img src="<?php echo $page ?>assets/images/hamburger.png" alt="Cobra Tutorials Logo" class="hamburgericon">
             <!--nav-->
             <nav class="navbar">
-                <a href="<?php echo $page ?>tutorials/overview.php">Overview of UNIX</a>
+                <a href="<?php echo $page ?>overview.php">Overview of UNIX</a>
                 <div class="dropdown">
                     <button class="dropbtn">Tutorials
                         <i class="fa fa-caret-down"></i>
