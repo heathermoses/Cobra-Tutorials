@@ -3,6 +3,7 @@
     include $page . "assets/includes/header.php";
 ?>      
             <!-- Ritvik Pandillapally/Group 3, ISTE-240, 2198-->
+            <title>Loading UNIX</title>
             <h1 id="section1">Section 1: Loading UNIX</h1>
             <p>
                 Video will go here

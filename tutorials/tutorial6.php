@@ -3,6 +3,7 @@
     include $page . "assets/includes/header.php";
 ?>      
             <!-- Onye Okezie/Group 3, ISTE-240, 2198-->
+            <title>Helpful Commands</title>
             <h1 id="section4">Section 6: Helpful Commands</h1>
             <p>
                 Video will go here

@@ -3,6 +3,7 @@
     include $page . "assets/includes/header.php";
 ?>            
             <!-- Chris Bo/Group 3, ISTE-240, 2198-->
+            <title>Traversing Unix</title>
             <h1 id="section4">Section 3: Traversing UNIX</h1>
             <div class="iframe-container">
             <iframe width="650" height="360" src="https://www.youtube.com/embed/XjA-Qszel_E" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -3,6 +3,7 @@
     include $page . "assets/includes/header.php";
 ?>
             <!-- Chris Bo/Group 3, ISTE-240, 2198-->
+            <title>Videos</title>
             <h1 id="section4">Videos</h1>
             <p>
                Having trouble understanding text tutorials? Watch and follow along with our interactive tutorials! 

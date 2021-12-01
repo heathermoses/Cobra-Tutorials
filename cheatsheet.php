@@ -3,6 +3,7 @@
     include $page . "assets/includes/header.php";
 ?>
             <!-- Bryce Hofstrom/Group 3, ISTE-240, 2198-->
+            <title>Command Line Cheat Sheet</title>
             <h1 id="section4">Command Line Cheat Sheet</h1>
             <p>
                 Need to find a specific UNIX concept or command? Feel free to use the below Cheat Sheet tables to search for your commands! Each table will be organized via their respective tutorial and will provide you with the basic concepts and commands found in each tutorial section. Let's get to searching!

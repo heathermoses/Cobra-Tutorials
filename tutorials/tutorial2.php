@@ -3,6 +3,7 @@
     include $page . "assets/includes/header.php";
 ?>      
             <!-- Ritvik Pandillapally/Group 3, ISTE-240, 2198-->
+            <title>UNIX Structure</title>
             <h1 id="section4">Section 2: UNIX Structure</h1>
             <div class="iframe-container">
                 <iframe width="650" height="360" src="https://www.youtube.com/embed/7UagLJq951s" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

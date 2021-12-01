@@ -3,6 +3,7 @@
     include $page . "assets/includes/header.php";
 ?>
             <!-- Heather Moses/Group 3, ISTE-240, 2198-->
+            <title>Manipulating UNIX Files and Directories</title>
             <h1 id="section4">Section 4: Manipulating UNIX Files and Directories</h1>
             <div class="iframe-container">
             <iframe width="650" height="360" src="https://youtube.com/embed/XhcCMQ8hz8s" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

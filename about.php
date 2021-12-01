@@ -4,6 +4,7 @@
   $page = "./";
   include $page . "assets/includes/header.php";
 ?>     
+            <title>About Us</title>
             <br/><br/>
             <div class="about-start">
               <h1><span class="color-black">About Us</span></h1>

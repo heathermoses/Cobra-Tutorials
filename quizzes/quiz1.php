@@ -3,6 +3,7 @@
     include $page . "assets/includes/header.php";
 ?>
             <!-- Akira Kovacsics/Group 3, ISTE-240, 2198-->
+            <title>Quiz: Loading UNIX</title>
             <h1 id="quiz2">Quiz 1: Loading UNIX</h1>
             <form method="get">
                 <ol>

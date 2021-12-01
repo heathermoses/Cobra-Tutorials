@@ -2,6 +2,8 @@
     $page = "../";
     include $page . "assets/includes/header.php";
 ?>
+            <!-- Akira Kovacsics/Group 3, ISTE-240, 2198-->
+            <title>Quiz: Traversing UNIX</title>
             <h1 id="quiz4">Quiz 3: Traversing UNIX</h1>
             <form method="get">
                 <ol>

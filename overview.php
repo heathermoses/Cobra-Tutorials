@@ -3,6 +3,7 @@
     include $page . "assets/includes/header.php";
 ?>     
             <!-- Bryce Hofstrom/Group 3, ISTE-240, 2198-->
+            <title>Overview of UNIX</title>
             <h1 id="section4">Overview Of UNIX</h1>
             <p>
                 One of the most important steps a web developer takes in producing their website is pushing their php, css, and javascript files to a web server. Web servers can organize and structure information in varying ways and, in our case, we will be exploring how a UNIX based web server operates. Here, we will explore the basics of UNIX as we lay a strong foundation for our various UNIX Tutorials to come.
