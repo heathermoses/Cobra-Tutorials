@@ -143,10 +143,41 @@
                     <td>The rmdir or remove directory command allows a user to remove a directory with no subdirectories contained within.</td>
                     <td><a href="tutorials/tutorial4.php#removeDir">Click For More Information...</a></td>
                 </tr>
-                
-                
             </table>
             <h2 id="tablesection5">UNIX and File Permissions</h2>
+            <table>
+                <tr class="text-bold-table">
+                    <td>Concept or Command</td>
+                    <td>Description</td>
+                    <td>Section Link</td>
+                </tr>
+                <tr>
+                    <td>File Ownership</td>
+                    <td>Every file or directory in UNIX is assigned three ownership categories: user, group, and other.</td>
+                    <td><a href="tutorials/tutorial5.php#ownership">Click For More Information...</a></td>
+                </tr>
+                <tr>
+                    <td>File Permissions</td>
+                    <td>Each ownership group for a file or directory is assigned three permission types: read, write, and execute.</td>
+                    <td><a href="tutorials/tutorial5.php#permissions">Click For More Information...</a></td>
+                </tr>
+                <tr>
+                    <td>chmod</td>
+                    <td>The chmod or change mod command is used to change a files permissions. There are two ways to change permissions: either through absolute or symbolic modes.</td>
+                    <td><a href="tutorials/tutorial5.php#chpermissions">Click For More Information...</a></td>
+                </tr>
+                <tr>
+                    <td>chown</td>
+                    <td>The chown or change ownership command is used to change a files owner.</td>
+                    <td><a href="tutorials/tutorial5.php#chowngrp">Click For More Information...</a></td>
+                </tr>
+                <tr>
+                    <td>chgrp</td>
+                    <td>The chgrp or change group command is used to change a files ownership group.</td>
+                    <td><a href="tutorials/tutorial5.php#chowngrp">Click For More Information...</a></td>
+                </tr>
+                
+            </table>
             <h2 id="tablesection6">Helpful Commands</h2>
 <?php
     include $page . "assets/includes/footer.php";
