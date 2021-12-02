@@ -229,6 +229,7 @@ ol li{
     max-width:480px;
     grid-area: visual;
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, .3);
+    border-radius: 10px;
 }
 
 .home-wrapper p {
