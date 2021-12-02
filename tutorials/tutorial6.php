@@ -5,9 +5,9 @@
             <!-- Onye Okezie/Group 3, ISTE-240, 2198-->
             <title>Helpful Commands</title>
             <h1 id="section6">Section 6: Helpful Commands</h1>
-            <p>
-                Video will go here
-            </p>
+            <div class="iframe-container">
+            <iframe width="650" height="360" src="https://www.youtube.com/embed/nhCKO0WvQDk" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
             <div class="callout-box">
                 <p>
                     Feel confident about your knowledge already? Check your understanding and take the quiz for this tutorial!
