@@ -69,8 +69,9 @@ function showAnswer(tutorialNumber, currQuestionName){
   var a = document.createElement('a'); 
             
   // Create the text node for anchor element.
-  var link = document.createTextNode("Try reviewing this section!");
-    
+  var link = document.createElement("p")
+  link.innerText = "Try reviewing this section!";
+  link.id = currQuestionName + "Wrong";
   // Append the text node to anchor element.
   a.appendChild(link); 
     
@@ -85,7 +86,7 @@ function checkQuiz(){
   // Function that checks the quiz; should be applicable to all quizzes. 
 
     let correctCount = 0; // current correct number of questions 
-    
+
     let indivQuestions = document.getElementsByTagName('input'); // array of the anwers (inputs)
     let indivQuestionsfinal = new Array();
 
@@ -101,15 +102,18 @@ function checkQuiz(){
     }
       
     for(let j = 0; j < indivQuestionsfinal.length; j++){
-        if(indivQuestionsfinal[j].value == 't' && indivQuestionsfinal[j].checked == false){
+        if(indivQuestionsfinal[j].value == 't' && indivQuestionsfinal[j].checked == true){
             correctCount++;
         }
-        if(indivQuestionsfinal[j].value == 't' && !indivQuestionsfinal[j].checked){
+        if(indivQuestionsfinal[j].value == 't' && indivQuestionsfinal[j].checked == false){
+          //wrong answer, show link to corresponding section
           let currQuestionName = indivQuestionsfinal[j].name; // current question name 
-          
-          let currQuestion = document.getElementById(currQuestionName);
-
-          currQuestion.appendChild(showAnswer(tutorialNumber, currQuestionName));
+          if(document.getElementById((currQuestionName + "Wrong")) != null && document.getElementById((currQuestionName + "Wrong")) != undefined) {
+            //already exists so do nothing
+          } else {
+            let currQuestion = document.getElementById(currQuestionName);
+            currQuestion.appendChild(showAnswer(tutorialNumber, currQuestionName));
+          }
         }
         if(indivQuestionsfinal[j].value == 't'){
             let ansstring = indivQuestionsfinal[j].id
@@ -120,10 +124,18 @@ function checkQuiz(){
         }
     }
 
-    let end = document.getElementById('content');
+    let end = document.getElementsByTagName('form')[0];
 
     let qCount = document.getElementsByTagName('li');
 
-    end.appendChild(document.createTextNode("Congrats on finishing the quiz! You got " + correctCount + " out of " + qCount.length + " questions correct."));
+    if(document.getElementById("answersCorrect") != undefined && document.getElementById("answersCorrect") != null) {
+      answer = document.getElementById("answersCorrect");
+      answer.innerText = "Congrats on finishing the quiz! You got " + correctCount + " out of " + qCount.length + " questions correct.";
+    } else {
+      answer = document.createElement("p")
+      answer.innerText = "Congrats on finishing the quiz! You got " + correctCount + " out of " + qCount.length + " questions correct.";
+      answer.id = "answersCorrect";
+      end.appendChild(answer);
+    }
 
 }
