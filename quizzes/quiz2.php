@@ -32,7 +32,7 @@
             </form>
             <br/>
             <div>
-                <button class="multipleChoice backButton" onclick="window.location.href='../quizzes/quiz1.php';">Go to Quiz 1: UNIX Structure</button>
+                <button class="multipleChoice backButton" onclick="window.location.href='../quizzes/quiz1.php';">Go to Quiz 1: Loading UNIX</button>
                 <button class="multipleChoice nextButton" onclick="window.location.href='../quizzes/quiz3.php';">Go to Quiz 3: Traversing UNIX</button>
             </div>
 <?php
