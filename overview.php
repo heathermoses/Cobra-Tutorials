@@ -6,7 +6,7 @@
             <title>Overview of UNIX</title>
             <h1 id="section4">Overview Of UNIX</h1>
             <p>
-                One of the most important steps a web developer takes in producing their website is pushing their php, css, and javascript files to a web server. Web servers can organize and structure information in varying ways and, in our case, we will be exploring how a UNIX based web server operates. Here, we will explore the basics of UNIX as we lay a strong foundation for our various UNIX Tutorials to come.
+                One of the most important steps a web developer takes in producing their website is pushing their HTML, CSS, and Javascript files to a web server. Web servers can organize and structure information in varying ways and, in our case, we will be exploring how a UNIX based web server operates. Here, we will explore the basics of UNIX as we lay a strong foundation for our various UNIX Tutorials to come.
             </p>
             <div>
                 <h2 id="WhatIsUnix">What Is UNIX?</h2>
