@@ -5,7 +5,7 @@
             <!-- Chris Bo/Group 3, ISTE-240, 2198-->
             <title>Videos</title>
             <h1 id="section4">Videos</h1>
-            <p>
+            <p class="srccontent">
                Having trouble understanding text tutorials? Watch and follow along with our interactive tutorials! 
             </p>
             <div class="video-wrapper">
