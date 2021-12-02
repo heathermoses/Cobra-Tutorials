@@ -4,7 +4,7 @@
 ?>
             <!-- Akira Kovacsics/Group 3, ISTE-240, 2198-->
             <title>Quiz: Helpful Commands</title>
-            <h1 id="quiz7">Quiz 6: Helpful Commands</h1>
+            <h1 id="quiz6">Quiz 6: Helpful Commands</h1>
             <form method="get">
                 <ol>
                     <li id="q1" class="question">
@@ -48,13 +48,6 @@
                         <label for="q6a"><div class="answer"><input type="radio" name = "q6" value = "f" id="q6a"/>com</div></label>
                         <label for="q6b"><div class="answer"><input type="radio" name = "q6" value = "t" id="q6b"/>man</div></label>
                         <label for="q6c"><div class="answer"><input type="radio" name = "q6" value = "f" id="q6c"/>info</div></label>
-                    </li>
-
-                    <li id="q7" class="question">
-                        What does the "grep" command do?<br/>
-                        <label for="q7a"><div class="answer"><input type="radio" name = "q7" value = "t" id="q7a"/>Allows the user to search for instances of strings in files</div></label>
-                        <label for="q7b"><div class="answer"><input type="radio" name = "q7" value = "f" id="q7b"/>Allows the user to find all files with an instance of a string in it</div></label>
-                        <label for="q7c"><div class="answer"><input type="radio" name = "q7" value = "f" id="q7c"/>Allows the user to replace instances of a string in files</div></label>
                     </li>
                 </ol>
                 <input type="button" id= "quizSubmit" value="Check Quiz!" onclick="checkQuiz()">

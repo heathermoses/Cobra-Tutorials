@@ -4,7 +4,7 @@
 ?>
             <!-- Akira Kovacsics/Group 3, ISTE-240, 2198-->
             <title>Quiz: File Permissions</title>
-            <h1 id="quiz6">Quiz 5: UNIX and File Permissions</h1>
+            <h1 id="quiz5">Quiz 5: UNIX and File Permissions</h1>
             <form method="get">
                 <ol>
                     <li id="q1" class="question">

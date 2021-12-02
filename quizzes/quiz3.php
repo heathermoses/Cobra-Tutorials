@@ -4,7 +4,7 @@
 ?>
             <!-- Akira Kovacsics/Group 3, ISTE-240, 2198-->
             <title>Quiz: Traversing UNIX</title>
-            <h1 id="quiz4">Quiz 3: Traversing UNIX</h1>
+            <h1 id="quiz3">Quiz 3: Traversing UNIX</h1>
             <form method="get">
                 <ol>
                     <li id="q1" class="question">
@@ -83,8 +83,8 @@
             </form>
             <br/>
             <div>
-                <button class="multipleChoice backButton" onclick="window.location.href='../quizzes/quiz2.html';">Go to Quiz 2: UNIX Structure</button>
-                <button class="multipleChoice nextButton" onclick="window.location.href='../quizzes/quiz4.html';">Go to Quiz 4: Manipulating UNIX Files and Directories</button>
+                <button class="multipleChoice backButton" onclick="window.location.href='../quizzes/quiz2.php';">Go to Quiz 2: UNIX Structure</button>
+                <button class="multipleChoice nextButton" onclick="window.location.href='../quizzes/quiz4.php';">Go to Quiz 4: Manipulating UNIX Files and Directories</button>
             </div>
 <?php
     include $page . "assets/includes/footer.php";
