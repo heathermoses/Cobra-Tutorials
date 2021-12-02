@@ -37,7 +37,7 @@
                 </p>
             </div>
             <div>
-                <button class="multipleChoice nextButton" onclick="window.location.href='tutorial1.php';">Go to Tutorial 1: Loading UNIX</button>
+                <button class="multipleChoice nextButton" onclick="window.location.href='tutorials/tutorial1.php';">Go to Tutorial 1: Loading UNIX</button>
             </div>
 <?php
     include $page . "assets/includes/footer.php";
