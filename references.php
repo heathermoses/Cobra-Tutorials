@@ -5,7 +5,7 @@
             <!-- Bryce Hofstrom/Group 3, ISTE-240, 2198-->
             <title>Sources</title>
             <div class="about-start">
-              <h1>Sources</h1>
+              <h1><span class="color-black">Sources</span></h1>
               <h4>Check out our inspirations for Cobra Tutorials!</h4>
             </div>
             <div>
