@@ -9,6 +9,7 @@
 <!-- body -->
 <!-- image source (royalty free): https://unsplash.com/photos/IgUR1iX0mqM -->
 <img id ="largeHome" src="assets/images/home/large-home.jpg" alt="People working together at a computer" height="478" width="1000"/>
+<img id ="smallHome" src="assets/images/home/small-home.jpg" alt="Lines of code" height="478" width="1000"/>
 <h1>
     Cobra Tutorials
 </h1>
