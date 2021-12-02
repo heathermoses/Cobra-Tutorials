@@ -8,6 +8,9 @@
             if(strstr($pagename, 'quiz') != false) { //if quiz exists in $pagename give it js
                 echo '<script src="../assets/js/script.js"></script>';
             }
+            if(strstr($pagename, 'about') != false) { //if about exists in $pagename give it about stylesheet
+                echo '<link rel = "stylesheet" type="text/css" href="../assets/css/aboutus-style.css" />';
+            }
         ?>
         <meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>

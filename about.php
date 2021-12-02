@@ -38,7 +38,7 @@
               
               <div class="column">
                 <div class="card">
-                  <img class="aboutus-img" src="./assets/images/aboutus/chris.jpeg" alt="Chris">
+                  <img class="aboutus-img" src="./assets/images/aboutus/chris.jpg" alt="Chris">
                   <div class="container">
                     <h2>Chris Bo</h2>
                     <p class="aboutus-title">Graphic Designer</p>
@@ -51,7 +51,7 @@
             <div class="row">
                 <div class="column">
                   <div class="card">
-                    <img class="aboutus-img" src="./assets/images/aboutus/akira.jpeg" alt="Akira">
+                    <img class="aboutus-img" src="./assets/images/aboutus/akira.jpg" alt="Akira">
                     <div class="container">
                       <h2>Akira Kovacsics</h2>
                       <p class="aboutus-title">Interaction Designer</p>
