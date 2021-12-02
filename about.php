@@ -77,11 +77,11 @@
                 
                 <div class="column">
                   <div class="card">
-                    <img class="aboutus-img" src="./assets/images/aboutus/onye.jpeg" alt="Onye">
+                    <img class="aboutus-img" src="./assets/images/aboutus/onye.jpg" alt="Onye">
                     <div class="container">
-                      <h2>Onye Okenzie</h2>
+                      <h2>Onyekachi Okezie</h2>
                       <p class="aboutus-title">Interaction Designer</p>
-                      <p>I am a sophomore and am majoring in Computing and Information Technologies.</p>
+                      <p>I am a fifth year and am majoring in Digital Humanities and Social Sciences.</p>
                       <a href = "mailto: ojo5312@rit.edu"><p>ojo5312@rit.edu</p></a>
                     </div>
                   </div>
