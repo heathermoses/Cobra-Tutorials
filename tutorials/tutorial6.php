@@ -40,7 +40,7 @@
 				</p>
 				
 				<h2 id="arrowKey">
-					Up On Arrow Keys Shortcut
+					Up Arrow Key Shortcut
 				</h2>
 				
 				<p>
@@ -57,7 +57,7 @@
 					Tab autocomplete becomes extremely useful when having to deal with length file, path, or directory names. For example, let’s say in the “CobraTutorials” directory, we have two files, 
 					one named “This_filename_is_long.txt” and the other named “Long_this_filename_is.txt”. Instead of manually typing in these filenames, we could tab autocomplete them. 
 					I could press the <span class="text-bold">T</span> key and tab to automatically fill in “This_filename_is_long.txt” in my terminal or I could press the <span class="text-bold">L</span> key and tab to automatically fill in “Long_this_filename_is.txt” in my terminal. 
-					Next time you are writing commands, give tab autocomplete a try!
+					Next time you are writing commands, give tab autocompletion a try!
 				</p>
 				
 				<h2 id="touch">
@@ -65,14 +65,14 @@
 				</h2>
 				
 				<p>
-					If you ever need to create a file in UNIX, the touch command can easily do this for you. The touch command has the following syntax: touch <filename> with filename being the name of a file you want to create. 
+					If you ever need to create a file in UNIX, the touch command can easily do this for you. The touch command has the following syntax: touch < filename > with filename being the name of a file you want to create. 
 					When using the touch command, any file you create will be empty by default. Changing a file's contents will be covered later in this tutorial. Let’s try creating a file using touch!
 				</p>
 				
 				<img src="../assets/images/tutorial6/3_cropped.png" alt="Touch Command" class="tutimg">
 				
 				<p>
-					In the above example, we use the touch command to create a file named “newfile.txt”. Again “newfile.txt” is empty by default but how can we check that this file is empty? 
+					In the above example, we use the touch command to create a file named “newfile.txt”. Again “newfile.txt” is empty by default, but how can we check that this file is empty? 
 					That’s where the next command will become useful!
 				</p>
 				
@@ -82,7 +82,7 @@
 				
 				<p>
 					The cat, or concatenate command, allows a user to easily look inside files and read any data to standard terminal output. 
-					Let’s say we wanted to check the contents of the file “newfile.txt” made from the previous exercise. We can do this using the following command syntax: cat <filename>. 
+					Let’s say we wanted to check the contents of the file “newfile.txt” made from the previous exercise. We can do this using the following command syntax: cat < filename >. 
 					Let’s give this command a try!
 				</p>
 				
@@ -100,8 +100,8 @@
 				</h2>
 				
 				<p>
-					Two popular UNIX text editors are Nano and Vim. Both editors are very different from one another; however, no matter which editor you use, they both come equipped with the proper tools to effectively edit files. 
-					To open a file in Nano, you use the command with the following syntax: nano <filename>. To open a file in Vim, you use the command with the following syntax: vim <filename>. If you use either of these commands without a filename or with a filename that does not yet exist, 
+					Two popular UNIX text editors are Nano and Vim. Both editors are very different from one another; However, no matter which editor you use, they both come equipped with the proper tools to effectively edit files. 
+					To open a file in Nano, you use the command with the following syntax: nano < filename >. To open a file in Vim, you use the command with the following syntax: vim < filename >. If you use either of these commands without a filename or with a filename that does not yet exist, 
 					an empty file will be created in the editor of your choice. Let’s edit “newfile.txt” from the previous exercise to actually contain some information.
 				</p>
 				

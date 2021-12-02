@@ -22,14 +22,14 @@
                     </li>
 
                     <li id="q3" class="question">
-                        How do you end your SSH connection?<br/>
+                        How do you end an SSH connection?<br/>
                         <label for="q3a"><div class="answer"><input type="radio" name = "q3" value = "f" id="q3a"/>end</div></label>
                         <label for="q3b"><div class="answer"><input type="radio" name = "q3" value = "f" id="q3b"/>exit</div></label>
                         <label for="q3c"><div class="answer"><input type="radio" name = "q3" value = "t" id="q3c"/>quit</div></label>
                     </li>
 
                     <li id="q4" class="question">
-                        What port shoukd you be establishing a connection on, when using an SFTP?<br/>
+                        What port should you be establishing a connection on when using an SFTP?<br/>
                         <label for="q4a"><div class="answer"><input type="radio" name = "q4" value = "f" id="q4a"/>75</div></label>
                         <label for="q4b"><div class="answer"><input type="radio" name = "q4" value = "f" id="q4b"/>64</div></label>
                         <label for="q4c"><div class="answer"><input type="radio" name = "q4" value = "t" id="q4c"/>22</div></label>

@@ -45,7 +45,7 @@
 					With the three ownership groups discussed above, being able to limit how these groups interact with files is where the concepts of permissions come into play. 
 					For each ownership group, UNIX assigns three different types of permissions: <span class="text-bold">read</span>, <span class="text-bold">write</span> and <span class="text-bold">execute</span>. 
 					<span class="text-bold">Read</span> permissions give the special authority to open, and thus read, a file. For a directory, this simply entails being able to list its contents. 
-					<span class="text-bold">Write</span> authorizes the modification of a file. On directories, the removal, addition, and or renaming of a file is granted. 
+					<span class="text-bold">Write</span> authorizes the modification of a file. On directories, the removal, addition, and renaming of a file is granted. 
 					Lastly, having <span class="text-bold">execute</span> permissions refers to an ownership group being granted the ability to execute a file like a script or program. 
 					Like ownership categories, file permissions are sometimes denoted by specific characters with <span class="text-bold">read</span> permissions being denoted by the <span class="text-bold">(r)</span> character, <span class="text-bold">write</span> permissions being denoted by the <span class="text-bold">(w)</span> character, and <span class="text-bold">execute</span> permissions being denoted by the <span class="text-bold">(x)</span> character. 
 				</p>
@@ -120,10 +120,10 @@
 				
 				<ul>
 					<h4 class="text-bold">chmod u+rw file.txt</h4>
-					<ol>Gives the user ownership group read and execute permissions for file.txt</ol>
+					<ol>Gives the user ownership group read and execute permissions for file.txt.</ol>
 					
 					<h4 class="text-bold">chmod g-x file.txt</h4>
-					<ol>Removes execute permissions from group for file.txt</ol>
+					<ol>Removes execute permissions from group for file.txt.</ol>
 					
 					<h4 class="text-bold">chmod o=rwx file.txt</h4>
 					<ol>Sets read, write, and execute permissions are assigned to others group for file.txt.</ol>
