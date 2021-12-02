@@ -94,7 +94,7 @@
 			</div>
 			
 			<div>
-				<h2>
+				<h2 id="editors">
 					Nano and Vim Text Editors
 				</h2>
 				
