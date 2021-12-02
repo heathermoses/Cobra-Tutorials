@@ -4,7 +4,7 @@
 ?>      
             <!-- Onye Okezie/Group 3, ISTE-240, 2198-->
             <title>Helpful Commands</title>
-            <h1 id="section4">Section 6: Helpful Commands</h1>
+            <h1 id="section6">Section 6: Helpful Commands</h1>
             <p>
                 Video will go here
             </p>
@@ -22,7 +22,7 @@
 					the following miscellaneous commands may be extremely helpful.
 				</p>
 				
-				<h2>
+				<h2 id="clear">
 					Clear
 				</h2>
 				
@@ -38,8 +38,8 @@
 					Above are two terminals, the left showing a filled terminal with command outputs and the right showcasing a cleared terminal after using the clear command.
 				</p>
 				
-				<h2>
-					Double Up On Arrow Keys Shortcut
+				<h2 id="arrowKey">
+					Up On Arrow Keys Shortcut
 				</h2>
 				
 				<p>
@@ -47,7 +47,7 @@
 					This shortcut is a great tool for recalling and easily modifying any previously used commands.
 				</p>
 				
-				<h2>
+				<h2 id="tab">
 					Tab Autocomplete
 				</h2>
 				
@@ -59,7 +59,7 @@
 					Next time you are writing commands, give tab autocomplete a try!
 				</p>
 				
-				<h2>
+				<h2 id="touch">
 					Touch Command
 				</h2>
 				
@@ -75,12 +75,12 @@
 					That’s where the next command will become useful!
 				</p>
 				
-				<h2>
+				<h2 id="cat">
 					Cat Command
 				</h2>
 				
 				<p>
-					The cat, or concatenate command, allows a user to easily look inside files and read any data  to standard terminal output. 
+					The cat, or concatenate command, allows a user to easily look inside files and read any data to standard terminal output. 
 					Let’s say we wanted to check the contents of the file “newfile.txt” made from the previous exercise. We can do this using the following command syntax: cat <filename>. 
 					Let’s give this command a try!
 				</p>
@@ -104,7 +104,7 @@
 					an empty file will be created in the editor of your choice. Let’s edit “newfile.txt” from the previous exercise to actually contain some information.
 				</p>
 				
-				<h3>
+				<h3 id="nano">
 					Editing With Nano
 				</h3>
 				
@@ -131,7 +131,7 @@
 				<img src="../assets/images/tutorial6/7_cropped.png" alt="Reading Nano Text File Using Cat" class="tutimg">
 				<p>As you can see, after using the cat command, “newfile.txt” now outputs “This file was edited with nano!” to the command line. We have successfully edited a file using Nano!</p>
 				
-				<h3>
+				<h3 id="vim">
 					Editing With Vim
 				</h3>
 				
@@ -162,7 +162,7 @@
 			</div>
 			
 			<div>
-				<h2>
+				<h2 id="man">
 					Man Command
 				</h2>
 				
