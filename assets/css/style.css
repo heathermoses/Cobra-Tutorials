@@ -85,10 +85,6 @@ body {
     display: none;
 }
 
-.hamburgericon {
-    display:none
-}
-
 p {
     font-family: "Source Sans Pro";
     font-size: 1em;
@@ -326,7 +322,6 @@ ol li{
     margin-bottom: 1rem;
 }
 
-
 #content {
     font-family: "Source Sans Pro", "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     width:960px;
@@ -353,6 +348,7 @@ ol li{
     align-content: center;
     background-image: linear-gradient(80deg, #C59764, #FFD063);
 }
+
 /* To enlarge the image on hover */
 .tutimg:hover {
     transition-timing-function: cubic-bezier(0.8, 0.3, 0.4, 0.9);
@@ -361,6 +357,7 @@ ol li{
     width: 80%;
     max-width: 900px;
 }
+
 /*use this as a flexbox to easily fit both the logo and nav*/
 header {
     margin-left: auto;
@@ -405,6 +402,7 @@ header {
 table, th, td {
     border:1px solid black;
 }
+
 .text-bold-table{
     font-size: 1.50em;
     font-weight: bold;
@@ -416,7 +414,6 @@ table{
     text-align: center;
 }
 
-  
 /* Links inside the navbar */
 .navbar a {
     vertical-align: middle;
@@ -493,42 +490,14 @@ table{
     display: block;
 }
 
-.hamburger {
-    position: fixed;
-    z-index: 100;
-    top: 1rem;
-    right: 1rem;
-    padding: 4px;
-    border: black solid 1px;
-    background: white;
-    cursor: pointer;
-}
+/* hamburger menu */
 
-.closeIcon {
+#hamnav {
     display: none;
 }
 
-.showMenu {
-    transform: translateY(0);
-}
-
-.mobilemenu button {
-    border-radius: 0;
-}
-
-.menu {
-    position: fixed;
-    transform: translateY(-100%);
-    transition: transform 0.2s;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 99;
-    background: black;
-    color: white;
-    list-style: none;
-    padding-top: 4rem;
+#hamnav label, #hamburger { 
+    display: none; 
 }
 
 /*Footer*/
@@ -693,9 +662,37 @@ iframe {
         padding-right:0%;
     }
 
-    .hamburgericon {
-        display:block;
-        width:5%;
+    #hamnav {
+        display: block;
+        background-color: #d79300;
+    }
+
+    #hamitems a {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        border-top: 1px solid #333;
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        font-family: "Source Sans Pro";
+        font-size: 1em;
+    }
+    
+    #hamnav label { 
+        display: inline-block; 
+        color: white;
+        font-size: 2em;
+        padding: 10px;
+    }
+
+    #hamitems { 
+        display: none; 
+    }
+
+    #hamnav input:checked ~ #hamitems { 
+        display: block; 
     }
 
     #content {

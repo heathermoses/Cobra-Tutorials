@@ -23,7 +23,6 @@
                     <img src="<?php echo $page ?>assets/images/logohorizlq.png" alt="Cobra Tutorials Logo" class="logolq">
                 </a>
             </div>
-            <img src="<?php echo $page ?>assets/images/hamburger.png" alt="Cobra Tutorials Logo" class="hamburgericon">
             <!--nav-->
             <nav class="navbar">
                 <a href="<?php echo $page ?>overview.php">Overview of UNIX</a>
@@ -56,5 +55,21 @@
                 <a href="<?php echo $page ?>cheatsheet.php">Cheat Sheet</a>
                 <a href="<?php echo $page ?>videos.php">Videos</a>
             </nav>
-        </header> <!-- need to insert images and add paragraphs as fig captions maybe-->
+
+            <!-- inspo taken from https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/ -->
+            <!-- hamburger menu -->
+            <nav id="hamnav">
+                <label for="hamburger">&#9776;</label>
+                <input type="checkbox" id="hamburger"/>
+            
+                <div id="hamitems">
+                    <a href="<?php echo $page ?>overview.php">Overview of UNIX</a>
+                    <a href="<?php echo $page ?>tutorials/tutorial1.php">Tutorials</a>
+                    <a href="<?php echo $page ?>quizzes/quiz1.php">Quizzes</a>
+                    <a href="<?php echo $page ?>cheatsheet.php">Cheat Sheet</a>
+                    <a href="<?php echo $page ?>videos.php">Videos</a>
+                </div>
+            </nav>
+
+        </header>
         <div id="content">
