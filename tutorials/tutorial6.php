@@ -32,6 +32,7 @@
 				</p>
 				
 				<img src="../assets/images/tutorial6/1_cropped.png" alt="Full Terminal Shell" class="tutimg">
+				<br/>
 				<img src="../assets/images/tutorial6/2_cropped.png" alt="Cleared Terminal Shell" class="tutimg">
 				
 				<p>
