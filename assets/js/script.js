@@ -85,28 +85,38 @@ function checkQuiz(){
   // Function that checks the quiz; should be applicable to all quizzes. 
 
     let correctCount = 0; // current correct number of questions 
-                
-    let answers = document.getElementsByClassName('answer'); // array of all the answers (div)
-                
+    
     let indivQuestions = document.getElementsByTagName('input'); // array of the anwers (inputs)
+    let indivQuestionsfinal = new Array();
 
     let tutorialNumber = document.getElementsByTagName('h1')[0].id; // quiz tutorial id
-                
-    for(let i = 0; i < indivQuestions.length; i++){
-        if(indivQuestions[i].value == 't' && indivQuestions[i].checked){
+
+    //insert by chris: the hamburger menu counts as the first object so i filtered to only
+    //radio type
+
+    for(let i=0; i<indivQuestions.length; i++) {
+      if(indivQuestions[i].type == 'radio') {
+        indivQuestionsfinal.push(indivQuestions[i]);
+      }
+    }
+      
+    for(let j = 0; j < indivQuestionsfinal.length; j++){
+        if(indivQuestionsfinal[j].value == 't' && indivQuestionsfinal[j].checked == false){
             correctCount++;
         }
-        if(indivQuestions[i].value == 't' && !indivQuestions[i].checked){
-          let currQuestionName = indivQuestions[i].name; // current question name 
+        if(indivQuestionsfinal[j].value == 't' && !indivQuestionsfinal[j].checked){
+          let currQuestionName = indivQuestionsfinal[j].name; // current question name 
           
           let currQuestion = document.getElementById(currQuestionName);
 
           currQuestion.appendChild(showAnswer(tutorialNumber, currQuestionName));
         }
-        if(indivQuestions[i].value == 't'){
-            answers[i].style.backgroundColor = "#55A630";
-        }else if(indivQuestions[i].value == 'f'){
-            answers[i].style.backgroundColor = "#fd332f";
+        if(indivQuestionsfinal[j].value == 't'){
+            let ansstring = indivQuestionsfinal[j].id
+            document.getElementById(ansstring).parentNode.style.backgroundColor = "#55A630";
+        }else if(indivQuestionsfinal[j].value == 'f'){
+            let ansstring = indivQuestionsfinal[j].id
+            document.getElementById(ansstring).parentNode.style.backgroundColor = "rgb(253, 51, 47)";
         }
     }
 
