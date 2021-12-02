@@ -4,7 +4,7 @@
 ?>
             <!-- Bryce Hofstrom/Group 3, ISTE-240, 2198-->
             <title>Command Line Cheat Sheet</title>
-            <h1 id="section4">Command Line Cheat Sheet</h1>
+            <h1 id="clcs">Command Line Cheat Sheet</h1>
             <p>
                 Need to find a specific UNIX concept or command? Feel free to use the below Cheat Sheet tables to search for your commands! Each table will be organized via their respective tutorial and will provide you with the basic concepts and commands found in each tutorial section. Let's get to searching!
             </p>
@@ -179,6 +179,54 @@
                 
             </table>
             <h2 id="tablesection6">Helpful Commands</h2>
+            <table>
+                <tr class="text-bold-table">
+                    <td>Concept or Command</td>
+                    <td>Description</td>
+                    <td>Section Link</td>
+                </tr>
+                <tr>
+                    <td>Clear</td>
+                    <td>Clear can easily remove the outputs of previous commands, thus cleaning your terminal of any commands.</td>
+                    <td><a href="tutorials/tutorial6.php#clear">Click For More Information...</a></td>
+                </tr>
+                <tr>
+                    <td>Arrow Keys Shortcut</td>
+                    <td>Pressing up on the arrow key button when given a command prompt will quickly cycle through commands you’ve already used.</td>
+                    <td><a href="tutorials/tutorial6.php#arrowKey">Click For More Information...</a></td>
+                </tr>
+                <tr>
+                    <td>Tab Autocomplete</td>
+                    <td>Using the Tab key when given a command prompt allows UNIX toautomatically suggest completed command options.</td>
+                    <td><a href="tutorials/tutorial6.php#tab">Click For More Information...</a></td>
+                </tr>
+                <tr>
+                    <td>Touch</td>
+                    <td>The touch command can be used to create an empty file.</td>
+                    <td><a href="tutorials/tutorial6.php#touch">Click For More Information...</a></td>
+                </tr>
+                <tr>
+                    <td>Cat</td>
+                    <td>The cat, or concatenate command, allows a user tolook inside files and read any data to standard terminal output.</td>
+                    <td><a href="tutorials/tutorial6.php#cat">Click For More Information...</a></td>
+                </tr>
+                <tr>
+                    <td>Nano</td>
+                    <td>Nano is a UNIX text editor.</td>
+                    <td><a href="tutorials/tutorial6.php#nano">Click For More Information...</a></td>
+                </tr>
+                <tr>
+                    <td>Vim</td>
+                    <td>Vim is a UNIX text editor.</td>
+                    <td><a href="tutorials/tutorial6.php#vim">Click For More Information...</a></td>
+                </tr>
+                <tr>
+                    <td>Man</td>
+                    <td>The manual or man command displays information regarding the functionality and purpose of a UNIX command.</td>
+                    <td><a href="tutorials/tutorial6.php#man">Click For More Information...</a></td>
+                </tr>
+                
+            </table>
 <?php
     include $page . "assets/includes/footer.php";
 ?>
