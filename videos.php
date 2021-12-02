@@ -30,7 +30,13 @@
                 <div class="videobox4">
                     <h2>UNIX and File Permissions</h2>
                     <div class="iframe-container">
-                        <iframe width="650" height="360" src="https://www.youtube.com/watch?v=XhcCMQ8hz8s" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="650" height="360" src="https://www.youtube.com/embed/VLrV_DkOIcA" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="videobox5">
+                    <h2>Helpful Commands</h2>
+                    <div class="iframe-container">
+                        <iframe width="650" height="360" src="https://www.youtube.com/embed/nhCKO0WvQDk" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>

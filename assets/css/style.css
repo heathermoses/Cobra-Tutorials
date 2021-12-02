@@ -539,11 +539,28 @@ iframe {
     height: 100%;
 }
 /*Video site css design with CSS Grid*/
-.videobox, .videobox2, .videobox3, .videobox4 {
+.videobox, .videobox2, .videobox3, .videobox4, .videobox5 {
     background-color: orange;
     max-width:480px;
     grid-area: video;
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, .3);
+    border-radius: 5% 5% 0% 0%;
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: .25s;
+}
+.videobox:hover, .videobox2:hover, .videobox3:hover, .videobox4:hover, .videobox5:hover {
+    box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.3);
+    transform: translateY(-4px);
+    background-color: rgb(255, 185, 56);
+}
+.videobox, .videobox2, .videobox3, .videobox4, .videobox5 h2 {
+    line-height: 300%;
+    margin:0;
+}
+/*fix for tut 5 having a two liner title*/
+.videobox4 h2 {
+    margin-top: 10%;
+    margin-bottom: 11.3%;
 }
 .videobox2 {
     grid-area: video2;
@@ -554,6 +571,9 @@ iframe {
 .videobox4 {
     grid-area: video4;
 }
+.videobox5 {
+    grid-area: video5;
+}
 .video-wrapper {
     width:100%;
     display: grid;
@@ -563,7 +583,8 @@ iframe {
     grid-gap: 1em;
     grid-template-areas: 
     'video video2'
-    'video3 video4';
+    'video3 video4'
+    'video5 video5';
 }
 
 /*About Us Css*/
@@ -723,6 +744,25 @@ iframe {
     .footer {
         margin-top: 10%;
     }
+
+    .videobox, .videobox2, .videobox3, .videobox4, .videobox5 {
+        background-color: orange;
+        max-width:480px;
+        box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, .3);
+        border-radius: 5% 5% 0% 0%;
+        transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+        transition-duration: .25s;
+    }
+    .videobox:hover, .videobox2:hover, .videobox3:hover, .videobox4:hover, .videobox5:hover {
+        box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.3);
+        transform: translateY(-2px);
+        background-color: rgb(255, 185, 56);
+    }
+    /*resets back to standard spacing/margin*/
+    .videobox4 h2 {
+        margin-top: 1.66em;
+        margin-bottom: 1.66em;
+    }
 }
 
 @media screen and (max-width: 650px) {
@@ -734,5 +774,39 @@ iframe {
     .container h2 {
         margin:0em; /*gets rid of awkward space below h2*/
         line-height:1.3;
+    }
+
+    /*standard line formatting*/
+    .video-wrapper {
+        width:100%; /*the videos make this look really responsive!*/
+        display: grid;
+        box-sizing: border-box;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-gap: 1em;
+        grid-template-areas: 
+        'video'
+        'video2'
+        'video3'
+        'video4'
+        'video5';
+    }
+
+    .videobox, .videobox2, .videobox3, .videobox4, .videobox5 {
+        background-color: orange;
+        max-width:100%;
+        box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.3);
+        border-radius: 5% 5% 0% 0%;
+        transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+        transition-duration: .25s;
+    }
+    .videobox:hover, .videobox2:hover, .videobox3:hover, .videobox4:hover, .videobox5:hover {
+        box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.3);
+        transform: translateY(0px);
+        background-color: orange;
+    }
+    .videobox4 h2 {
+        margin-top: 0.83em;
+        margin-bottom: 0.83em;
     }
 }
