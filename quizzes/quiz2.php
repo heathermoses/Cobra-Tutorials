@@ -4,7 +4,7 @@
 ?>
             <!-- Akira Kovacsics/Group 3, ISTE-240, 2198-->
 
-            <title>Quiz: UNIX StructureX</title>
+            <title>Quiz: UNIX Structure</title>
             <h1 id="quiz2">Quiz 2: UNIX Structure</h1>
             <form method="get">
                 <ol>
@@ -32,6 +32,7 @@
             </form>
             <br/>
             <div>
+                <button class="multipleChoice backButton" onclick="window.location.href='../quizzes/quiz1.php';">Go to Quiz 1: UNIX Structure</button>
                 <button class="multipleChoice nextButton" onclick="window.location.href='../quizzes/quiz3.php';">Go to Quiz 3: Traversing UNIX</button>
             </div>
 <?php
