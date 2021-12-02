@@ -1,17 +1,20 @@
+<?php $pagename = $actual_link = "$_SERVER[REQUEST_URI]"; //ex: /~csb3946/240/groupprojexp/quizzes/quiz1.php ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" <?php if(strstr($pagename, 'about') != false) { echo 'class="aboutus-main"'; }?> >
     <head>
         <meta charset="utf-8"/>
         <link rel = "stylesheet" type="text/css" href="<?php echo $page ?>assets/css/style.css" />
         <?php
-            $pagename = $actual_link = "$_SERVER[REQUEST_URI]"; //ex: /~csb3946/240/groupprojexp/quizzes/quiz1.php
             if(strstr($pagename, 'quiz') != false) { //if quiz exists in $pagename give it js
                 echo '<script src="../assets/js/script.js"></script>';
+            }
+            if(strstr($pagename, 'about') != false) { //if about exists in $pagename give it about stylesheet
+                echo '<link rel = "stylesheet" type="text/css" href="./assets/css/aboutus-style.css" />';
             }
         ?>
         <meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
-	<body>
+	<body <?php if(strstr($pagename, 'about') != false) { echo 'class="box-sizing-body"'; }?>>
         <header>
             <!--logo-->
             <div>

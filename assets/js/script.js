@@ -4,11 +4,17 @@ const hamburger= document.querySelector(".hamburger");
 const closeIcon= document.querySelector(".closeIcon");
 const menuIcon = document.querySelector(".menuIcon");
 
-var quiz2 = {
+var quiz1 = {
   "q1": "../tutorials/tutorial1.php#loadingSSH",
   "q2": "../tutorials/tutorial1.php#macSSH",
   "q3": "../tutorials/tutorial1.php#macSSH",
   "q4": "../tutorials/tutorial1.php#establishSFTP"
+}
+
+var quiz2 = {
+  "q1": "../tutorials/tutorial2.php#processesAndFiles",
+  "q2": "../tutorials/tutorial2.php#files",
+  "q3": "../tutorials/tutorial2.php#fileStructure",
 }
 
 var quiz3 = {
@@ -25,19 +31,6 @@ var quiz3 = {
 }
 
 var quiz4 = {
-  "q1": "../tutorials/tutorial3.php#lsa",
-  "q2": "../tutorials/tutorial3.php#lsl",
-  "q3": "../tutorials/tutorial3.php#lsFlags",
-  "q4": "../tutorials/tutorial3.php#cdDot",
-  "q5": "../tutorials/tutorial3.php#cdDotDot",
-  "q6": "../tutorials/tutorial3.php#cdTilde",
-  "q7": "../tutorials/tutorial3.php#cdTilde",
-  "q8": "../tutorials/tutorial3.php#mkdir",
-  "q9": "../tutorials/tutorial3.php#pathways",
-  "q10": "../tutorials/tutorial3.php#pathways"
-}
-
-var quiz5 = {
   "q1": "../tutorials/tutorial4.php#move",
   "q2": "../tutorials/tutorial4.php#moving",
   "q3": "../tutorials/tutorial4.php#copy",
@@ -46,35 +39,35 @@ var quiz5 = {
   "q6": "../tutorials/tutorial4.php#removeDir"
 }
 
-var quiz6 = {
-  "q1": "../tutorials/tutorial4.php#lsa",
-  "q2": "../tutorials/tutorial4.php#lsl",
-  "q3": "../tutorials/tutorial4.php#lsFlags",
-  "q4": "../tutorials/tutorial4.php#cdDot",
-  "q5": "../tutorials/tutorial4.php#cdDotDot",
-  "q6": "../tutorials/tutorial4.php#cdTilde",
-  "q7": "../tutorials/tutorial4.php#cdTilde",
-  "q8": "../tutorials/tutorial4.php#mkdir",
-  "q9": "../tutorials/tutorial4.php#pathways",
-  "q10": "../tutorials/tutorial4.php#pathways"
+var quiz5 = {
+  "q1": "../tutorials/tutorial5.php#ownership",
+  "q2": "../tutorials/tutorial5.php#ownership",
+  "q3": "../tutorials/tutorial5.php#permissions",
+  "q4": "../tutorials/tutorial5.php#change",
+  "q5": "../tutorials/tutorial5.php#chpermissions",
+  "q6": "../tutorials/tutorial5.php#chpermissions",
+  "q7": "../tutorials/tutorial5.php#chpermissions",
+  "q8": "../tutorials/tutorial5.php#chowngrp",
+  "q9": "../tutorials/tutorial5.php#chowngrp",
+  "q10": "../tutorials/tutorial5.php#chowngrp"
 }
 
-var quiz7 = {
-  "q1": "../tutorials/tutorial4.php#lsa",
-  "q2": "../tutorials/tutorial4.php#lsl",
-  "q3": "../tutorials/tutorial4.php#lsFlags",
-  "q4": "../tutorials/tutorial4.php#cdDot",
-  "q5": "../tutorials/tutorial4.php#cdDotDot",
-  "q6": "../tutorials/tutorial4.php#cdTilde",
-  "q7": "../tutorials/tutorial4.php#cdTilde"
+var quiz6 = {
+  "q1": "../tutorials/tutorial6.php#clear",
+  "q2": "../tutorials/tutorial6.php#tab",
+  "q3": "../tutorials/tutorial6.php#touch",
+  "q4": "../tutorials/tutorial6.php#cat",
+  "q5": "../tutorials/tutorial6.php#editors",
+  "q6": "../tutorials/tutorial6.php#man"
 }
 
 var sectionLinks = {
+  "quiz1": quiz1,
   "quiz2": quiz2,
+  "quiz3": quiz3,
   "quiz4": quiz4,
   "quiz5": quiz5,
-  "quiz6": quiz6,
-  "quiz7": quiz7
+  "quiz6": quiz6
 }
 
 function toggleMenu() {

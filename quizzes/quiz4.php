@@ -4,7 +4,7 @@
 ?>
             <!-- Akira Kovacsics/Group 3, ISTE-240, 2198-->
             <title>Quiz: Manipulating UNIX Files</title>
-            <h1 id="quiz5">Quiz 4: Manipulating UNIX Files and Directories</h1>
+            <h1 id="quiz4">Quiz 4: Manipulating UNIX Files and Directories</h1>
             <form method="get">
                 <ol>
                     <li id="q1" class="question">

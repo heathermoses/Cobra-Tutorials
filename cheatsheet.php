@@ -197,7 +197,7 @@
                 </tr>
                 <tr>
                     <td>Tab Autocomplete</td>
-                    <td>Using the Tab key when given a command prompt allows UNIX toautomatically suggest completed command options.</td>
+                    <td>Using the Tab key when given a command prompt allows UNIX to automatically suggest completed command options.</td>
                     <td><a href="tutorials/tutorial6.php#tab">Click For More Information...</a></td>
                 </tr>
                 <tr>
@@ -207,7 +207,7 @@
                 </tr>
                 <tr>
                     <td>Cat</td>
-                    <td>The cat, or concatenate command, allows a user tolook inside files and read any data to standard terminal output.</td>
+                    <td>The cat, or concatenate command, allows a user to look inside files and read any data to standard terminal output.</td>
                     <td><a href="tutorials/tutorial6.php#cat">Click For More Information...</a></td>
                 </tr>
                 <tr>

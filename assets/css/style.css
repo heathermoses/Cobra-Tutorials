@@ -596,12 +596,13 @@ iframe {
     'video3 video4';
 }
 
+/*About Us Css*/
+
 .aboutus-title {
     color: rgb(112, 112, 112);
 }
 .aboutus-main{
     box-sizing: border-box;
-    box-sizing: inherit;
 }
 
 .about-start {
@@ -653,6 +654,11 @@ iframe {
 
 .color-black{
     color: #000;
+}
+
+/*Sourcess Css*/
+.srccontent{
+    text-align: center;
 }
 
 /*!
