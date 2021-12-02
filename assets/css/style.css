@@ -542,7 +542,6 @@ iframe {
 .videobox, .videobox2, .videobox3, .videobox4, .videobox5 {
     background-color: orange;
     max-width:480px;
-    grid-area: video;
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, .3);
     border-radius: 5% 5% 0% 0%;
     transition:cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -562,6 +561,9 @@ iframe {
     margin-top: 10%;
     margin-bottom: 11.3%;
 }
+.videobox {
+    grid-area: video;
+}
 .videobox2 {
     grid-area: video2;
 }
@@ -579,7 +581,7 @@ iframe {
     display: grid;
     box-sizing: border-box;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
+    grid-template-rows: 1fr 1fr;
     grid-gap: 1em;
     grid-template-areas: 
     'video video2'
